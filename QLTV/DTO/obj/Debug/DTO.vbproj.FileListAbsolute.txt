@@ -51,3 +51,14 @@ C:\Users\TrongTin16\Desktop\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV-a
 C:\Users\TrongTin16\Desktop\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV\DTO\obj\Debug\DTO.dll
 C:\Users\TrongTin16\Desktop\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV\DTO\obj\Debug\DTO.xml
 C:\Users\TrongTin16\Desktop\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV-af7cfe6afec04e47cd645fbb19dbd0d2b9240732\QLTV\DTO\obj\Debug\DTO.pdb
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\bin\Debug\DTO.dll
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\bin\Debug\DTO.pdb
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\bin\Debug\DTO.xml
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.vbprojResolveAssemblyReference.cache
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.Resources.resources
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.vbproj.GenerateResource.cache
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.vbproj.CoreCompileInputs.cache
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.vbproj.CopyComplete
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.dll
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.xml
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\DTO\obj\Debug\DTO.pdb

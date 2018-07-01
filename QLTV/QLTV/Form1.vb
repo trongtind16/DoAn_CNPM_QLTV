@@ -9,11 +9,12 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
         ''
         LoaiDocGiaGUI.Show()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles QLDocGia.Click, ThemDG.Click
         DocGiaGUI.MdiParent = Me
         ''
         LoaiDocGiaGUI.Hide()
@@ -23,6 +24,7 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
         ''
         DocGiaGUI.Show()
     End Sub
@@ -37,6 +39,8 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
+
         ''
         QuyDinhGUI.Show()
     End Sub
@@ -51,6 +55,8 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
+
         ''
         TheLoaiSachGUI.Show()
     End Sub
@@ -65,6 +71,8 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
+
         ''
         TinhTrangSachGUI.Show()
     End Sub
@@ -80,10 +88,11 @@
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
         SachGUI.LoadSachGUI_Load()
+        BaoCaoTheoTheLoaiGUI.Hide()
         ''
         SachGUI.Show()
     End Sub
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton7.Click, BunifuFlatButton9.Click
         QuanLyPhieuMuonGUI.MdiParent = Me
         ''
         LoaiDocGiaGUI.Hide()
@@ -93,8 +102,23 @@
         TinhTrangSachGUI.Hide()
         SachGUI.Hide()
         QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
 
         QuanLyPhieuMuonGUI.Show()
+    End Sub
+    Private Sub BunifuFlatButton8_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton8.Click
+        BaoCaoTheoTheLoaiGUI.MdiParent = Me
+        ''
+        LoaiDocGiaGUI.Hide()
+        DocGiaGUI.Hide()
+        QuyDinhGUI.Hide()
+        TheLoaiSachGUI.Hide()
+        TinhTrangSachGUI.Hide()
+        SachGUI.Hide()
+        QuanLyPhieuMuonGUI.Hide()
+        BaoCaoTheoTheLoaiGUI.Hide()
+
+        BaoCaoTheoTheLoaiGUI.Show()
     End Sub
 
     Private Sub BunifuImageButton2_Click(sender As Object, e As EventArgs) Handles BunifuImageButton2.Click

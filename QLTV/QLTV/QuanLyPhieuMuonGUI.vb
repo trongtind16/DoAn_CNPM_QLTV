@@ -6,7 +6,7 @@ Imports Utility
 Public Class QuanLyPhieuMuonGUI
     Private pmsBUS As PhieuMuonSachBUS
 
-    Private Sub PhieuMuonSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub QuanLyPhieuMuonGUI_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         pmsBUS = New PhieuMuonSachBUS()
         loadListPhieuMuonSach()
     End Sub
