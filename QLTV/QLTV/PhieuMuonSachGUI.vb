@@ -27,7 +27,7 @@ Public Class PhieuMuonSachGUI
         End Try
     End Sub
 
-    Private Sub btnNhap_Click(sender As Object, e As EventArgs) Handles btnNhap.Click
+    Private Sub btnNhap_Click(sender As Object, e As EventArgs) Handles btthem.Click
         pms = New PhieuMuonSachDTO()
         qdBus = New QuyDinhBUS()
         resul = qdBus.selectALL(listQuyDinh)
@@ -205,7 +205,7 @@ Public Class PhieuMuonSachGUI
     End Sub
 
 
-    Private Sub btnTimKiem_Click(sender As Object, e As EventArgs) Handles btnTimKiem.Click
+    Private Sub btnTimKiem_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Connect()
         If con.State = ConnectionState.Closed Then
             con.Open()
@@ -251,7 +251,7 @@ Public Class PhieuMuonSachGUI
     Private Sub txtTimKiem_Click(sender As Object, e As EventArgs) Handles txtTimKiem.Click
         txtTimKiem.Text = ""
     End Sub
-    Private Sub btnHuy_Click(sender As Object, e As EventArgs) Handles btnHuy.Click
+    Private Sub btnHuy_Click(sender As Object, e As EventArgs) Handles Button2.Click
         loadListSach()
         Me.txtTimKiem.Focus()
         Me.cbDoiTuong.Text = "Chọn..."

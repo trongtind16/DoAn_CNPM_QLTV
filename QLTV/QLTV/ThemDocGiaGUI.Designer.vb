@@ -26,7 +26,6 @@ Partial Class ThemDocGiaGUI
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.dtpNgayHetHan = New System.Windows.Forms.DateTimePicker()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.cbGioiTinh = New System.Windows.Forms.ComboBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.dtpNgayLapThe = New System.Windows.Forms.DateTimePicker()
@@ -46,14 +45,12 @@ Partial Class ThemDocGiaGUI
         Me.btnNhap = New System.Windows.Forms.Button()
         Me.btnThoat = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.dtpNgayHetHan)
         Me.GroupBox1.Controls.Add(Me.Label10)
-        Me.GroupBox1.Controls.Add(Me.PictureBox1)
         Me.GroupBox1.Controls.Add(Me.cbGioiTinh)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.dtpNgayLapThe)
@@ -72,9 +69,11 @@ Partial Class ThemDocGiaGUI
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(16, 15)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(729, 254)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Size = New System.Drawing.Size(972, 313)
         Me.GroupBox1.TabIndex = 57
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Thông Tin Độc Giả"
@@ -85,9 +84,10 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgayHetHan.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpNgayHetHan.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.dtpNgayHetHan.ImeMode = System.Windows.Forms.ImeMode.[On]
-        Me.dtpNgayHetHan.Location = New System.Drawing.Point(501, 160)
+        Me.dtpNgayHetHan.Location = New System.Drawing.Point(668, 197)
+        Me.dtpNgayHetHan.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtpNgayHetHan.Name = "dtpNgayHetHan"
-        Me.dtpNgayHetHan.Size = New System.Drawing.Size(207, 23)
+        Me.dtpNgayHetHan.Size = New System.Drawing.Size(275, 27)
         Me.dtpNgayHetHan.TabIndex = 96
         Me.dtpNgayHetHan.Value = New Date(2018, 11, 25, 0, 0, 0, 0)
         '
@@ -95,22 +95,12 @@ Partial Class ThemDocGiaGUI
         '
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label10.Location = New System.Drawing.Point(390, 164)
+        Me.Label10.Location = New System.Drawing.Point(520, 202)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(93, 15)
+        Me.Label10.Size = New System.Drawing.Size(119, 20)
         Me.Label10.TabIndex = 95
         Me.Label10.Text = "Ngày Hết Hạn  :"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackColor = System.Drawing.Color.White
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(206, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(45, 30)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 94
-        Me.PictureBox1.TabStop = False
         '
         'cbGioiTinh
         '
@@ -118,18 +108,20 @@ Partial Class ThemDocGiaGUI
         Me.cbGioiTinh.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.cbGioiTinh.FormattingEnabled = True
         Me.cbGioiTinh.Items.AddRange(New Object() {"NAM", "NỮ", "KHÁC"})
-        Me.cbGioiTinh.Location = New System.Drawing.Point(501, 85)
+        Me.cbGioiTinh.Location = New System.Drawing.Point(668, 105)
+        Me.cbGioiTinh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cbGioiTinh.Name = "cbGioiTinh"
-        Me.cbGioiTinh.Size = New System.Drawing.Size(207, 23)
+        Me.cbGioiTinh.Size = New System.Drawing.Size(275, 28)
         Me.cbGioiTinh.TabIndex = 47
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label7.Location = New System.Drawing.Point(390, 88)
+        Me.Label7.Location = New System.Drawing.Point(520, 108)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(63, 15)
+        Me.Label7.Size = New System.Drawing.Size(80, 20)
         Me.Label7.TabIndex = 46
         Me.Label7.Text = "Giới Tính :"
         '
@@ -138,9 +130,10 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgayLapThe.CustomFormat = "dd/MM/yyyy"
         Me.dtpNgayLapThe.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpNgayLapThe.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpNgayLapThe.Location = New System.Drawing.Point(501, 121)
+        Me.dtpNgayLapThe.Location = New System.Drawing.Point(668, 149)
+        Me.dtpNgayLapThe.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtpNgayLapThe.Name = "dtpNgayLapThe"
-        Me.dtpNgayLapThe.Size = New System.Drawing.Size(207, 23)
+        Me.dtpNgayLapThe.Size = New System.Drawing.Size(275, 27)
         Me.dtpNgayLapThe.TabIndex = 45
         Me.dtpNgayLapThe.Value = New Date(2018, 5, 17, 0, 0, 0, 0)
         '
@@ -148,9 +141,10 @@ Partial Class ThemDocGiaGUI
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label8.Location = New System.Drawing.Point(390, 127)
+        Me.Label8.Location = New System.Drawing.Point(520, 156)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(87, 15)
+        Me.Label8.Size = New System.Drawing.Size(113, 20)
         Me.Label8.TabIndex = 44
         Me.Label8.Text = "Ngày Lập Thẻ :"
         '
@@ -158,26 +152,29 @@ Partial Class ThemDocGiaGUI
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(39, 52)
+        Me.Label3.Location = New System.Drawing.Point(52, 64)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 15)
+        Me.Label3.Size = New System.Drawing.Size(97, 20)
         Me.Label3.TabIndex = 32
         Me.Label3.Text = "Mã Độc Giả :"
         '
         'txtDiaChi
         '
         Me.txtDiaChi.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDiaChi.Location = New System.Drawing.Point(162, 163)
+        Me.txtDiaChi.Location = New System.Drawing.Point(216, 201)
+        Me.txtDiaChi.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtDiaChi.Name = "txtDiaChi"
-        Me.txtDiaChi.Size = New System.Drawing.Size(207, 23)
+        Me.txtDiaChi.Size = New System.Drawing.Size(275, 27)
         Me.txtDiaChi.TabIndex = 31
         '
         'txtEmail
         '
         Me.txtEmail.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(162, 204)
+        Me.txtEmail.Location = New System.Drawing.Point(216, 251)
+        Me.txtEmail.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(207, 23)
+        Me.txtEmail.Size = New System.Drawing.Size(275, 27)
         Me.txtEmail.TabIndex = 41
         '
         'dtpNgaySinh
@@ -185,46 +182,51 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgaySinh.CustomFormat = "dd/MM/yyyy"
         Me.dtpNgaySinh.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dtpNgaySinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom
-        Me.dtpNgaySinh.Location = New System.Drawing.Point(162, 125)
+        Me.dtpNgaySinh.Location = New System.Drawing.Point(216, 154)
+        Me.dtpNgaySinh.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dtpNgaySinh.Name = "dtpNgaySinh"
-        Me.dtpNgaySinh.Size = New System.Drawing.Size(207, 22)
+        Me.dtpNgaySinh.Size = New System.Drawing.Size(275, 26)
         Me.dtpNgaySinh.TabIndex = 34
         Me.dtpNgaySinh.Value = New Date(1999, 1, 1, 0, 0, 0, 0)
         '
         'txtTenDG
         '
         Me.txtTenDG.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTenDG.Location = New System.Drawing.Point(162, 85)
+        Me.txtTenDG.Location = New System.Drawing.Point(216, 105)
+        Me.txtTenDG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTenDG.Name = "txtTenDG"
-        Me.txtTenDG.Size = New System.Drawing.Size(207, 23)
+        Me.txtTenDG.Size = New System.Drawing.Size(275, 27)
         Me.txtTenDG.TabIndex = 29
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label2.Location = New System.Drawing.Point(39, 166)
+        Me.Label2.Location = New System.Drawing.Point(52, 204)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(51, 15)
+        Me.Label2.Size = New System.Drawing.Size(66, 20)
         Me.Label2.TabIndex = 30
         Me.Label2.Text = "Địa Chỉ :"
         '
         'txtMaDG
         '
         Me.txtMaDG.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtMaDG.Location = New System.Drawing.Point(162, 43)
+        Me.txtMaDG.Location = New System.Drawing.Point(216, 53)
+        Me.txtMaDG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtMaDG.Name = "txtMaDG"
         Me.txtMaDG.ReadOnly = True
-        Me.txtMaDG.Size = New System.Drawing.Size(207, 23)
+        Me.txtMaDG.Size = New System.Drawing.Size(275, 27)
         Me.txtMaDG.TabIndex = 33
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label5.Location = New System.Drawing.Point(39, 207)
+        Me.Label5.Location = New System.Drawing.Point(52, 255)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(42, 15)
+        Me.Label5.Size = New System.Drawing.Size(55, 20)
         Me.Label5.TabIndex = 40
         Me.Label5.Text = "Email :"
         '
@@ -232,9 +234,10 @@ Partial Class ThemDocGiaGUI
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label6.Location = New System.Drawing.Point(39, 91)
+        Me.Label6.Location = New System.Drawing.Point(52, 112)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(82, 15)
+        Me.Label6.Size = New System.Drawing.Size(104, 20)
         Me.Label6.TabIndex = 28
         Me.Label6.Text = "Tên Độc Giả : "
         '
@@ -243,18 +246,20 @@ Partial Class ThemDocGiaGUI
         Me.cbLoaiDG.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbLoaiDG.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbLoaiDG.FormattingEnabled = True
-        Me.cbLoaiDG.Location = New System.Drawing.Point(501, 43)
+        Me.cbLoaiDG.Location = New System.Drawing.Point(668, 53)
+        Me.cbLoaiDG.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.cbLoaiDG.Name = "cbLoaiDG"
-        Me.cbLoaiDG.Size = New System.Drawing.Size(207, 23)
+        Me.cbLoaiDG.Size = New System.Drawing.Size(275, 28)
         Me.cbLoaiDG.TabIndex = 36
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label4.Location = New System.Drawing.Point(39, 125)
+        Me.Label4.Location = New System.Drawing.Point(52, 154)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 15)
+        Me.Label4.Size = New System.Drawing.Size(88, 20)
         Me.Label4.TabIndex = 35
         Me.Label4.Text = "Ngày Sinh :"
         '
@@ -262,9 +267,10 @@ Partial Class ThemDocGiaGUI
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label1.Location = New System.Drawing.Point(390, 45)
+        Me.Label1.Location = New System.Drawing.Point(520, 55)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(81, 15)
+        Me.Label1.Size = New System.Drawing.Size(104, 20)
         Me.Label1.TabIndex = 37
         Me.Label1.Text = "Loại Độc Giả :"
         '
@@ -273,11 +279,13 @@ Partial Class ThemDocGiaGUI
         Me.btnNhap.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnNhap.BackgroundImage = CType(resources.GetObject("btnNhap.BackgroundImage"), System.Drawing.Image)
         Me.btnNhap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnNhap.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnNhap.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.btnNhap.ForeColor = System.Drawing.Color.Black
-        Me.btnNhap.Location = New System.Drawing.Point(279, 290)
+        Me.btnNhap.Location = New System.Drawing.Point(372, 357)
+        Me.btnNhap.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnNhap.Name = "btnNhap"
-        Me.btnNhap.Size = New System.Drawing.Size(93, 42)
+        Me.btnNhap.Size = New System.Drawing.Size(124, 52)
         Me.btnNhap.TabIndex = 58
         Me.btnNhap.Text = "Nhập"
         Me.btnNhap.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -288,11 +296,13 @@ Partial Class ThemDocGiaGUI
         Me.btnThoat.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.btnThoat.BackgroundImage = CType(resources.GetObject("btnThoat.BackgroundImage"), System.Drawing.Image)
         Me.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnThoat.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnThoat.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.btnThoat.ForeColor = System.Drawing.Color.Black
-        Me.btnThoat.Location = New System.Drawing.Point(405, 290)
+        Me.btnThoat.Location = New System.Drawing.Point(540, 357)
+        Me.btnThoat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btnThoat.Name = "btnThoat"
-        Me.btnThoat.Size = New System.Drawing.Size(93, 39)
+        Me.btnThoat.Size = New System.Drawing.Size(124, 48)
         Me.btnThoat.TabIndex = 59
         Me.btnThoat.Text = "Trở Về"
         Me.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -300,20 +310,20 @@ Partial Class ThemDocGiaGUI
         '
         'ThemDocGiaGUI
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(762, 352)
+        Me.ClientSize = New System.Drawing.Size(1016, 433)
         Me.Controls.Add(Me.btnNhap)
         Me.Controls.Add(Me.btnThoat)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ThemDocGiaGUI"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ThemDocGiaGUI"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -321,7 +331,6 @@ Partial Class ThemDocGiaGUI
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents dtpNgayHetHan As DateTimePicker
     Friend WithEvents Label10 As Label
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents cbGioiTinh As ComboBox
     Friend WithEvents Label7 As Label
     Friend WithEvents dtpNgayLapThe As DateTimePicker

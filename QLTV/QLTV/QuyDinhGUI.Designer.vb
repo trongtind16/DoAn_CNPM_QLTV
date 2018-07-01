@@ -33,10 +33,8 @@ Partial Class QuyDinhGUI
         Me.txtHanSuDung = New System.Windows.Forms.TextBox()
         Me.txtTuoiToiThieu = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtKCNXB = New System.Windows.Forms.TextBox()
-        Me.txtSoLuongTheLoai = New System.Windows.Forms.TextBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.txtSachMuonToiDa = New System.Windows.Forms.TextBox()
@@ -54,6 +52,7 @@ Partial Class QuyDinhGUI
         Me.btnThoat.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.btnThoat.BackgroundImage = CType(resources.GetObject("btnThoat.BackgroundImage"), System.Drawing.Image)
         Me.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnThoat.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnThoat.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.btnThoat.ForeColor = System.Drawing.Color.Black
         Me.btnThoat.Location = New System.Drawing.Point(397, 364)
@@ -70,6 +69,7 @@ Partial Class QuyDinhGUI
         Me.btnCapNhat.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btnCapNhat.BackgroundImage = CType(resources.GetObject("btnCapNhat.BackgroundImage"), System.Drawing.Image)
         Me.btnCapNhat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btnCapNhat.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnCapNhat.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCapNhat.ForeColor = System.Drawing.Color.Black
         Me.btnCapNhat.Location = New System.Drawing.Point(195, 364)
@@ -156,10 +156,8 @@ Partial Class QuyDinhGUI
         '
         'GroupBox2
         '
-        Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Controls.Add(Me.txtKCNXB)
-        Me.GroupBox2.Controls.Add(Me.txtSoLuongTheLoai)
         Me.GroupBox2.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.GroupBox2.ForeColor = System.Drawing.Color.White
         Me.GroupBox2.Location = New System.Drawing.Point(399, 2)
@@ -171,22 +169,11 @@ Partial Class QuyDinhGUI
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Quy Định 2"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label7.Location = New System.Drawing.Point(19, 81)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(142, 20)
-        Me.Label7.TabIndex = 3
-        Me.Label7.Text = "Số Lượng Thể Loại:"
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
-        Me.Label4.Location = New System.Drawing.Point(19, 34)
+        Me.Label4.Location = New System.Drawing.Point(19, 80)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(142, 20)
@@ -196,20 +183,11 @@ Partial Class QuyDinhGUI
         'txtKCNXB
         '
         Me.txtKCNXB.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.txtKCNXB.Location = New System.Drawing.Point(181, 34)
+        Me.txtKCNXB.Location = New System.Drawing.Point(181, 80)
         Me.txtKCNXB.Margin = New System.Windows.Forms.Padding(4)
         Me.txtKCNXB.Name = "txtKCNXB"
         Me.txtKCNXB.Size = New System.Drawing.Size(167, 27)
         Me.txtKCNXB.TabIndex = 0
-        '
-        'txtSoLuongTheLoai
-        '
-        Me.txtSoLuongTheLoai.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.txtSoLuongTheLoai.Location = New System.Drawing.Point(181, 78)
-        Me.txtSoLuongTheLoai.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtSoLuongTheLoai.Name = "txtSoLuongTheLoai"
-        Me.txtSoLuongTheLoai.Size = New System.Drawing.Size(167, 27)
-        Me.txtSoLuongTheLoai.TabIndex = 1
         '
         'GroupBox3
         '
@@ -315,10 +293,8 @@ Partial Class QuyDinhGUI
     Friend WithEvents txtHanSuDung As TextBox
     Friend WithEvents txtTuoiToiThieu As TextBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents Label7 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents txtKCNXB As TextBox
-    Friend WithEvents txtSoLuongTheLoai As TextBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents Label5 As Label
     Friend WithEvents txtSachMuonToiDa As TextBox

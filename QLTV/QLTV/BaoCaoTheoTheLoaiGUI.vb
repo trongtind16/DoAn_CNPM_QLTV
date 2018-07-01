@@ -57,7 +57,7 @@ Public Class BaoCaoTheoTheLoaiGUI
         dgvLoadDS.DataSource = listbctl
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnThoat.Click
         Me.Close()
     End Sub
 
@@ -69,7 +69,7 @@ Public Class BaoCaoTheoTheLoaiGUI
         LoadDanhSach()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnNhap.Click
         BaoCaoSachTreGUI.Show()
     End Sub
 End Class

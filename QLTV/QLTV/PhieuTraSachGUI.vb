@@ -85,4 +85,8 @@ Public Class PhieuTraSachGUI
         loadListPhieuTraSach()
         QuanLyPhieuMuonGUI.loadListPhieuMuonSach()
     End Sub
+
+    Private Sub btthem_Click(sender As Object, e As EventArgs) Handles btthem.Click
+
+    End Sub
 End Class

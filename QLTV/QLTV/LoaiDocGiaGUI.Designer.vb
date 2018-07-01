@@ -38,10 +38,11 @@ Partial Class LoaiDocGiaGUI
         '
         'txtMaLoai
         '
-        Me.txtMaLoai.Location = New System.Drawing.Point(222, 188)
+        Me.txtMaLoai.Location = New System.Drawing.Point(296, 231)
+        Me.txtMaLoai.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtMaLoai.Name = "txtMaLoai"
         Me.txtMaLoai.ReadOnly = True
-        Me.txtMaLoai.Size = New System.Drawing.Size(133, 20)
+        Me.txtMaLoai.Size = New System.Drawing.Size(176, 22)
         Me.txtMaLoai.TabIndex = 107
         Me.txtMaLoai.WordWrap = False
         '
@@ -50,17 +51,19 @@ Partial Class LoaiDocGiaGUI
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(140, 188)
+        Me.Label3.Location = New System.Drawing.Point(187, 231)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(52, 15)
+        Me.Label3.Size = New System.Drawing.Size(68, 20)
         Me.Label3.TabIndex = 106
         Me.Label3.Text = "Mã Loại:"
         '
         'txtTenLoai
         '
-        Me.txtTenLoai.Location = New System.Drawing.Point(222, 235)
+        Me.txtTenLoai.Location = New System.Drawing.Point(296, 289)
+        Me.txtTenLoai.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.txtTenLoai.Name = "txtTenLoai"
-        Me.txtTenLoai.Size = New System.Drawing.Size(222, 20)
+        Me.txtTenLoai.Size = New System.Drawing.Size(295, 22)
         Me.txtTenLoai.TabIndex = 105
         '
         'Label2
@@ -68,9 +71,10 @@ Partial Class LoaiDocGiaGUI
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(140, 237)
+        Me.Label2.Location = New System.Drawing.Point(187, 292)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(55, 15)
+        Me.Label2.Size = New System.Drawing.Size(71, 20)
         Me.Label2.TabIndex = 104
         Me.Label2.Text = "Tên Loại:"
         '
@@ -79,10 +83,11 @@ Partial Class LoaiDocGiaGUI
         Me.dgvDanhSachTLS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dgvDanhSachTLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvDanhSachTLS.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MaLDG, Me.TenLDG})
-        Me.dgvDanhSachTLS.Location = New System.Drawing.Point(107, 23)
+        Me.dgvDanhSachTLS.Location = New System.Drawing.Point(143, 28)
+        Me.dgvDanhSachTLS.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.dgvDanhSachTLS.Name = "dgvDanhSachTLS"
         Me.dgvDanhSachTLS.ReadOnly = True
-        Me.dgvDanhSachTLS.Size = New System.Drawing.Size(386, 150)
+        Me.dgvDanhSachTLS.Size = New System.Drawing.Size(515, 185)
         Me.dgvDanhSachTLS.TabIndex = 103
         '
         'MaLDG
@@ -103,11 +108,11 @@ Partial Class LoaiDocGiaGUI
         '
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(36, 0)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Location = New System.Drawing.Point(48, 0)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
-        Me.GroupBox1.Size = New System.Drawing.Size(478, 270)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(637, 332)
         Me.GroupBox1.TabIndex = 110
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Danh Sách Loại Độc Giả:"
@@ -117,11 +122,13 @@ Partial Class LoaiDocGiaGUI
         Me.btsua.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.btsua.BackgroundImage = CType(resources.GetObject("btsua.BackgroundImage"), System.Drawing.Image)
         Me.btsua.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btsua.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btsua.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btsua.ForeColor = System.Drawing.Color.Black
-        Me.btsua.Location = New System.Drawing.Point(143, 287)
+        Me.btsua.Location = New System.Drawing.Point(191, 353)
+        Me.btsua.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btsua.Name = "btsua"
-        Me.btsua.Size = New System.Drawing.Size(116, 48)
+        Me.btsua.Size = New System.Drawing.Size(155, 59)
         Me.btsua.TabIndex = 109
         Me.btsua.Text = "Cập Nhật"
         Me.btsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -132,11 +139,13 @@ Partial Class LoaiDocGiaGUI
         Me.btthoat.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.btthoat.BackgroundImage = CType(resources.GetObject("btthoat.BackgroundImage"), System.Drawing.Image)
         Me.btthoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.btthoat.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btthoat.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btthoat.ForeColor = System.Drawing.Color.Black
-        Me.btthoat.Location = New System.Drawing.Point(328, 287)
+        Me.btthoat.Location = New System.Drawing.Point(437, 353)
+        Me.btthoat.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.btthoat.Name = "btthoat"
-        Me.btthoat.Size = New System.Drawing.Size(116, 48)
+        Me.btthoat.Size = New System.Drawing.Size(155, 59)
         Me.btthoat.TabIndex = 108
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -144,10 +153,10 @@ Partial Class LoaiDocGiaGUI
         '
         'LoaiDocGiaGUI
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(550, 334)
+        Me.ClientSize = New System.Drawing.Size(733, 428)
         Me.Controls.Add(Me.txtMaLoai)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtTenLoai)
@@ -158,6 +167,7 @@ Partial Class LoaiDocGiaGUI
         Me.Controls.Add(Me.btthoat)
         Me.ForeColor = System.Drawing.Color.AliceBlue
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "LoaiDocGiaGUI"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "LoaiDocGiaGUI"
