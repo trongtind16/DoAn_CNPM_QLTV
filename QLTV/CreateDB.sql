@@ -72,14 +72,18 @@ USE [QLTV]
 GO
 
 INSERT INTO [dbo].[DocGia]([MaDG],[TenDG],[MaLDG],[NgaySinh],[DiaChi],[Email],[NgayLapThe],[NgayHetHan],[GioiTinh]) 
-	VALUES(N'17000001',N'Nguyễn Văn An',1,'12/30/2017',N'134 Cộng Hòa, Quận Tân Bình, TP HCM','123@gmail.com','12/30/2017', '12/30/2017', N'Nam')
+	VALUES(N'18000001',N'Nguyễn Văn An',1,'12/12/1990',N'Q9.HCM','123@gmail.com','5/29/2018', '11/29/2018', N'Nam')
 GO
 INSERT INTO [dbo].[DocGia]([MaDG],[TenDG],[MaLDG],[NgaySinh],[DiaChi],[Email],[NgayLapThe],[NgayHetHan],[GioiTinh]) 
-	VALUES(N'17000002',N'Nguyễn Văn',2,'12/30/2017',N'134 Cộng Hòa, Quận Tân Bình, TP HCM','123@gmail.com','12/30/2017', '12/30/2017', N'Nu')
+	VALUES(N'18000002',N'Nguyễn Thị Lài',2,'1/12/1991',N'Q1.HCM','concobebe@gmail.com','4/12/2018', '10/12/2018', N'Nữ')
 GO
 INSERT INTO [dbo].[DocGia]([MaDG],[TenDG],[MaLDG],[NgaySinh],[DiaChi],[Email],[NgayLapThe],[NgayHetHan],[GioiTinh]) 
-	VALUES(N'17000005',N'Nguyễn Văn Anhhh',2,'12/30/2017',N'134 Cộng Hòa, Quận Tân Bình, TP HCM','123@gmail.com','12/30/2017', '12/30/2017', N'Nu')
+	VALUES(N'18000003',N'Nguyễn Hoàng Anh',1,'12/2/1994',N'Q5.HCM','conchimnon@gmail.com','6/29/2018', '12/29/2018', N'Nam')
 GO
+INSERT INTO [dbo].[DocGia]([MaDG],[TenDG],[MaLDG],[NgaySinh],[DiaChi],[Email],[NgayLapThe],[NgayHetHan],[GioiTinh]) 
+	VALUES(N'18000004',N'Nguyễn Thanh Tùng',2,'12/2/1994',N'Q7.HCM','conchimnontrencay@gmail.com','6/29/2017', '12/29/2017', N'Nam')
+GO
+
 
 CREATE TABLE [dbo].[TinhTrangSach](
 	[MaTTS] [int] NOT NULL,
@@ -92,10 +96,10 @@ CREATE TABLE [dbo].[TinhTrangSach](
 GO
 
 INSERT INTO [dbo].[TinhTrangSach]([MaTTS], [TenTTS]) 
-	VALUES(1, N'Còn')
+	VALUES(1, N'Rảnh')
 Go
 INSERT INTO [dbo].[TinhTrangSach]([MaTTS], [TenTTS]) 
-	VALUES(2, N'Hết')
+	VALUES(2, N'Đang Mượn')
 Go
 
 CREATE TABLE [dbo].[TheLoaiSach](
@@ -112,6 +116,15 @@ INSERT INTO [dbo].[TheLoaiSach]([MaTLS], [TenTLS])
 	
 INSERT INTO [dbo].[TheLoaiSach]([MaTLS], [TenTLS]) 
 	VALUES(2,N'Truyện tranh')
+GO
+INSERT INTO [dbo].[TheLoaiSach]([MaTLS], [TenTLS]) 
+	VALUES(3,N'Giáo Khoa')
+GO
+INSERT INTO [dbo].[TheLoaiSach]([MaTLS], [TenTLS]) 
+	VALUES(4,N'Âm Nhạc')
+GO
+INSERT INTO [dbo].[TheLoaiSach]([MaTLS], [TenTLS]) 
+	VALUES(5,N'Truyện')
 GO
 
 CREATE TABLE [dbo].[Sach](
@@ -139,15 +152,23 @@ REFERENCES [dbo].[TinhTrangSach] ([MaTTS])
 GO
 
 INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
-	VALUES(N'18001',N'Nhà giả kim', 2, N'abc', N'xyz', 2018,'12/30/2017', 1, 50000)
+	VALUES(N'18001',N'Nhà giả kim', 5, N'Paulo Coelho', N'NXB Văn Học', 2018,'1/12/2018', 1, 50000)
+Go
+INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
+	VALUES(N'18002',N'tây du ký', 5, N'Ngô Thừa Ân', N'NXB Văn Học', 2017,'12/30/2017', 1, 50000)
+Go
+INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
+	VALUES(N'18003',N'Dế mèn phiêu lưu ký', 2, N'NXB Trẻ', N'Tô Hoài', 2015,'1/30/2017', 1, 50000)
+Go
+INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
+	VALUES(N'18004',N'Nhập Môn CNPM', 3, N'NXB giáo dục', N'Nhiều Tác Giả', 2011,'1/15/2015', 2, 50000)
+Go
+INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
+	VALUES(N'18005',N'Âm nhạc căn bản', 4, N'NXB Âm nhạc', N'Nhiều Tác Giả', 2013,'11/13/2016', 2, 50000)
 Go
 
 INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
-	VALUES(N'18002',N'tây du ký', 1, N'abc', N'xyz', 2018,'12/30/2017', 2, 50000)
-Go
-
-INSERT INTO [dbo].[Sach]([MaSach], [TenSach], [MaTLS], [TenTG],[NXB],[NamXB],[NgayNhap],[MaTTS], [TriGia]) 
-	VALUES(N'18003',N'Nhà Giàu', 2, N'abc', N'xyz', 2018,'12/30/2017', 1, 50000)
+	VALUES(N'18006',N'sự im lặng của bầy cừu', 1, N'NXB Trẻ', N'Thomas Harris', 2013,'11/13/2016', 2, 50000)
 Go
 
 CREATE TABLE [dbo].[QuyDinh](
@@ -191,17 +212,14 @@ GO
 ALTER TABLE [dbo].MuonTraSach  WITH CHECK ADD  CONSTRAINT [FK_tbl_MuonTraSach_tbl_Sach] FOREIGN KEY([MaSach])
 REFERENCES [dbo].[Sach] ([MaSach])
 GO
-USE [QLTV]
+
+INSERT INTO [dbo].MuonTraSach([MaPhieu],[MaDG],[MaSach],[NgayMuon],[NgayHenTra],[NgayTra],[TinhTrangPhieuMuon])
+	 VALUES (N'10001',N'18000001',N'18004','05/02/2018','05/3/2018','05/06/2018',N'Quá Hạn')
 GO
 INSERT INTO [dbo].MuonTraSach([MaPhieu],[MaDG],[MaSach],[NgayMuon],[NgayHenTra],[NgayTra],[TinhTrangPhieuMuon])
-	 VALUES (N'10001',N'17000001',N'18001','05/02/2018','05/29/2018','06/01/2018',N'Quá Hạn')
+	 VALUES (N'10002',N'18000001',N'18005','07/02/2018','07/03/2018','07/06/2018',N'Đang Mượn')
 GO
 INSERT INTO [dbo].MuonTraSach([MaPhieu],[MaDG],[MaSach],[NgayMuon],[NgayHenTra],[NgayTra],[TinhTrangPhieuMuon])
-	VALUES (N'10002',N'17000002',N'18001','05/04/2018','05/28/2018','01/01/2000',N'Đang Mượn')
+	 VALUES (N'10003',N'18000002',N'18006','07/02/2018','07/03/2018','07/06/2018',N'Đang Mượn')
 GO
-INSERT INTO [dbo].MuonTraSach([MaPhieu],[MaDG],[MaSach],[NgayMuon],[NgayHenTra],[NgayTra],[TinhTrangPhieuMuon]) 
-	VALUES (N'10003',N'17000001',N'18001','05/03/2018','05/30/2018','01/01/2000',N'Đang Mượn')
-GO
- INSERT INTO [dbo].MuonTraSach([MaPhieu],[MaDG],[MaSach],[NgayMuon],[NgayHenTra],[NgayTra],[TinhTrangPhieuMuon])
- VALUES (N'10004',N'17000005',N'18003','06/03/2017','05/30/2017','01/01/2001',N'ABC')
- Go
+
