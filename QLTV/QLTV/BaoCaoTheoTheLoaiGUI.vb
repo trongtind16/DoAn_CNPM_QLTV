@@ -69,7 +69,7 @@ Public Class BaoCaoTheoTheLoaiGUI
         LoadDanhSach()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles btnNhap.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) 
         BaoCaoSachTreGUI.Show()
     End Sub
 End Class

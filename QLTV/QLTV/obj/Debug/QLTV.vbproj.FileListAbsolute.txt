@@ -265,3 +265,4 @@ C:\Users\USER\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.vbproj.CopyComplet
 C:\Users\USER\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.exe
 C:\Users\USER\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.xml
 C:\Users\USER\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.pdb
+C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.BaoCaoGUI.resources

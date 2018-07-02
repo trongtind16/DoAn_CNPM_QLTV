@@ -143,16 +143,17 @@
   </data>
   <data name="Button2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAAAd5JREFUeF7tmkFKxUAMht/KQ+gpvI1bXQl6CM/kDVyILsTDiEtF88MbCMN0Jp0m
-        aaD54INHafMnaftWPSVJkiRJkkxwQT6S7+Q3+RdEFy7JT7LVwN6agzsfdXhoDh77VnAUzcE7zwOfSbwS
-        e8F7gebUf3hX5J7wXqA57oED3PvRDLw5uwXNfkRoBd6SP2fxexatfsRoBN6Rv2Spgd84NgPvBZqzNbAe
-        vji7hLqOOVsCl4YvziyhrmHObOBo+OLaJdTXmzMTKB2+uGYJ9bXmrA1sDd9aRuscyRL4NdCcNYFLw+M4
-        PwZ75/bg50NzpIHXZG8gfhyCpSWg1hL8XGjOmsAnspxX301eAxbqJaBGD14DmrM2EAPUw4NenbKE0fCg
-        V8eEmcDWIzyq03vsOaM66mgFRqsjRiswWh0xWoHR6ojRCoxWR4x74AD3ftwDB7j3oxUYrY4YrcBodcS4
-        Bw5w78c9cIB7P1qB0eqI0QqMVkeMe+AA937cAwe49+MeOMC9H/fAAe791IEv5KG+EWqFRtKcVmgkzWmF
-        RtKcOvBw3wjVgYf7RujwH0m9kTwQr8CeS+C9QHMeyDo0kubgU9kPshUeQRfwrx91CW7gSbgnX8kvstXM
-        HiZJkiRJkgg4nf4BTDODrJtEiEIAAAAASUVORK5CYII=
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAhlJREFUWEftl7dOQzEUhiNRFvqGQGy0kfYcCHgV2ggSZUS0EQSvQX0MygozDIgy
+        Uf7PypGCY984N5ECUn7pU67t42NfX9vnpNDUf9OYWBWX4la8FuH5QqyIUVF3zYhr8Z0IE5wUNatNHIov
+        geNncSRmBavRUYTnOXEssMGWPgeiVeRSn7C3fhOboltUUo/A9kPQ96pYV5XaBR1x8CDyLOeUeBQ2iRaR
+        rH1BRxwMUJFTg8ImsUdFithwfL93UY+NNC3whU9WpaJs6TdcqVydxd+QYm1bAp8c1UyNCwyfRGjDrQnO
+        fL8r/RZ1tGHji02IT3yPUBETFwlGHDVfvB0D0O5Pwga3ttBKnAjal1wpIpYII850SP5AlEN1IS0IbM5d
+        KaJ7gVHWdeoPmDI4wid2d64U0YvAqMuV4iqdRMrgCJ/YMkZUDZ9Awz+BbcJ5VyqXPzjlUF1ItgnPXCmi
+        ZYERUc1XrcfwVNC+6EoREVYxil1E6yL2ljYJbHyVXkTDVGSJZAJDrs+QYtctirVtC3xm3gEmgocFI55r
+        FcENX59igooUlYZjQmpeDQkLx7tUpIo0yqIiDpLCqCfe3AbndFWVkCA2jh1LlpA0q1dUEjZ8c0vJ+O5V
+        p2QmVoLEku+HMxJOohrBitBtSSnP3B20WVJKnx2ROyktFZmRrUYKXDZ1Sct9kUxwWbGsnHn+lHC33wgG
+        JdZnJhxN/TEVCj+XcMQxn3xdegAAAABJRU5ErkJggg==
 </value>
   </data>
   <metadata name="MaPhieu.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

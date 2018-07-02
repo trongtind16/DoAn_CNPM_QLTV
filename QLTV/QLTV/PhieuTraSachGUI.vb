@@ -65,8 +65,12 @@ Public Class PhieuTraSachGUI
         Me.Hide()
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        MessageBox.Show("Thêm Phiếu Mượn thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
+        If (txtTinhTrangPhieuMuon.Text = "Đã Trả") Then
+            MessageBox.Show("Phiếu mượn này đã được trả.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            Return
+        End If
+        MessageBox.Show("Trả Sách thành công.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
         connect()
         If con.State = ConnectionState.Closed Then
@@ -84,9 +88,5 @@ Public Class PhieuTraSachGUI
         Adapter2.Fill(DATA2, "MuonTraSach")
         loadListPhieuTraSach()
         QuanLyPhieuMuonGUI.loadListPhieuMuonSach()
-    End Sub
-
-    Private Sub btthem_Click(sender As Object, e As EventArgs) Handles btthem.Click
-
     End Sub
 End Class

@@ -30,6 +30,7 @@ Partial Class ThemLoaiDocGiaGUI
         Me.txtTenLoai = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnNhap
@@ -40,10 +41,9 @@ Partial Class ThemLoaiDocGiaGUI
         Me.btnNhap.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnNhap.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.btnNhap.ForeColor = System.Drawing.Color.Black
-        Me.btnNhap.Location = New System.Drawing.Point(91, 194)
-        Me.btnNhap.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.btnNhap.Location = New System.Drawing.Point(68, 203)
         Me.btnNhap.Name = "btnNhap"
-        Me.btnNhap.Size = New System.Drawing.Size(124, 48)
+        Me.btnNhap.Size = New System.Drawing.Size(93, 39)
         Me.btnNhap.TabIndex = 67
         Me.btnNhap.Text = "Nhập"
         Me.btnNhap.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -57,10 +57,9 @@ Partial Class ThemLoaiDocGiaGUI
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(269, 194)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Location = New System.Drawing.Point(202, 203)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(124, 48)
+        Me.Button1.Size = New System.Drawing.Size(93, 39)
         Me.Button1.TabIndex = 68
         Me.Button1.Text = "Trở Về"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -68,11 +67,10 @@ Partial Class ThemLoaiDocGiaGUI
         '
         'txtMaLoai
         '
-        Me.txtMaLoai.Location = New System.Drawing.Point(147, 71)
-        Me.txtMaLoai.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtMaLoai.Location = New System.Drawing.Point(110, 103)
         Me.txtMaLoai.Name = "txtMaLoai"
         Me.txtMaLoai.ReadOnly = True
-        Me.txtMaLoai.Size = New System.Drawing.Size(176, 22)
+        Me.txtMaLoai.Size = New System.Drawing.Size(133, 20)
         Me.txtMaLoai.TabIndex = 66
         Me.txtMaLoai.WordWrap = False
         '
@@ -82,19 +80,17 @@ Partial Class ThemLoaiDocGiaGUI
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(36, 73)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label3.Location = New System.Drawing.Point(27, 104)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(68, 20)
+        Me.Label3.Size = New System.Drawing.Size(52, 15)
         Me.Label3.TabIndex = 65
         Me.Label3.Text = "Mã Loại:"
         '
         'txtTenLoai
         '
-        Me.txtTenLoai.Location = New System.Drawing.Point(147, 129)
-        Me.txtTenLoai.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.txtTenLoai.Location = New System.Drawing.Point(110, 150)
         Me.txtTenLoai.Name = "txtTenLoai"
-        Me.txtTenLoai.Size = New System.Drawing.Size(295, 22)
+        Me.txtTenLoai.Size = New System.Drawing.Size(222, 20)
         Me.txtTenLoai.TabIndex = 64
         '
         'Label2
@@ -103,10 +99,9 @@ Partial Class ThemLoaiDocGiaGUI
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold)
         Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label2.Location = New System.Drawing.Point(36, 132)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label2.Location = New System.Drawing.Point(27, 152)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(71, 20)
+        Me.Label2.Size = New System.Drawing.Size(55, 15)
         Me.Label2.TabIndex = 63
         Me.Label2.Text = "Tên Loại:"
         '
@@ -114,21 +109,33 @@ Partial Class ThemLoaiDocGiaGUI
         '
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(15, 15)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.GroupBox1.Location = New System.Drawing.Point(11, 57)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox1.Size = New System.Drawing.Size(456, 174)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(342, 141)
         Me.GroupBox1.TabIndex = 69
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Thêm Loại Độc Giả"
         '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Segoe UI", 18.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.White
+        Me.Label12.Location = New System.Drawing.Point(62, 23)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(238, 32)
+        Me.Label12.TabIndex = 114
+        Me.Label12.Text = "Thêm Thể Loại Sách"
+        '
         'ThemLoaiDocGiaGUI
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(485, 256)
+        Me.ClientSize = New System.Drawing.Size(364, 254)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.btnNhap)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.txtMaLoai)
@@ -137,7 +144,6 @@ Partial Class ThemLoaiDocGiaGUI
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.GroupBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "ThemLoaiDocGiaGUI"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ThemLoaiDocGia"
@@ -153,4 +159,5 @@ Partial Class ThemLoaiDocGiaGUI
     Friend WithEvents txtTenLoai As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents Label12 As Label
 End Class

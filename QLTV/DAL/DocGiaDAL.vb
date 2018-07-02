@@ -199,7 +199,7 @@ Public Class DocGiaDAL
 
         Dim query As String = String.Empty
         query &= "SELECT [MaDG],[TenDG],[TenLDG],[NgaySinh],[DiaChi],[Email],[NgayLapThe],[NgayHetHan],[GioiTinh]"
-        query &= "FROM [DocGia],[LoaiDocGia] WHERE [DocGia].[MaLDG] = [LoaiDocGia].[MaLDG]"
+        query &= "FROM [DocGia],[LoaiDocGia] WHERE [DocGia].[MaLDG] = [LoaiDocGia].[MaLDG] ORDER BY [MaDG] DESC"
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()

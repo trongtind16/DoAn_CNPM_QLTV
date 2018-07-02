@@ -79,6 +79,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaoCaoGUI.Designer.vb">
+      <DependentUpon>BaoCaoGUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaoCaoGUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BaoCaoSachTreGUI.Designer.vb">
       <DependentUpon>BaoCaoSachTreGUI.vb</DependentUpon>
     </Compile>
@@ -193,6 +199,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="BaoCaoGUI.resx">
+      <DependentUpon>BaoCaoGUI.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BaoCaoSachTreGUI.resx">
       <DependentUpon>BaoCaoSachTreGUI.vb</DependentUpon>
     </EmbeddedResource>

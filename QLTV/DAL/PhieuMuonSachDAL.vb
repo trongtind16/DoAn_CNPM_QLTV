@@ -123,7 +123,7 @@ Public Class PhieuMuonSachDAL
 
         Dim query As String = String.Empty
         query &= "SELECT [MaPhieu],[DocGia].[MaDG],[DocGia].[TenDG], [Sach].[MaSach],[Sach].[TenSach], [NgayMuon], [NgayHenTra],[NgayTra], [TinhTrangPhieuMuon]  "
-        query &= "FROM [MuonTraSach],[DocGia],[Sach] WHERE [MuonTraSach].[MaDG]=[DocGia].[MaDG] AND [MuonTraSach].[MaSach]=[Sach].[MaSach]"
+        query &= "FROM [MuonTraSach],[DocGia],[Sach] WHERE [MuonTraSach].[MaDG]=[DocGia].[MaDG] AND [MuonTraSach].[MaSach]=[Sach].[MaSach]  ORDER BY [MaPhieu] DESC"
 
         Using conn As New SqlConnection(connectionString)
             Using comm As New SqlCommand()
