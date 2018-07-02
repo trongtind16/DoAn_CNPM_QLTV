@@ -12,7 +12,7 @@ Public Class PhieuTraSachGUI
     Dim resul As Result
 
     Private Sub PhieuTraSach_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        pmsBUS = New PhieuMuonSachBUS()
+
         loadListPhieuTraSach()
     End Sub
     Private con As SqlConnection
@@ -25,6 +25,7 @@ Public Class PhieuTraSachGUI
         End Try
     End Sub
     Public Sub loadListPhieuTraSach()
+        pmsBUS = New PhieuMuonSachBUS()
         Dim listPhieuTraSach = New List(Of PhieuMuonSachDTO)
         Dim result As Result
         result = pmsBUS.selectAll(listPhieuTraSach)

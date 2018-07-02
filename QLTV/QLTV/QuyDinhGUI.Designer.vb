@@ -170,10 +170,10 @@ Partial Class QuyDinhGUI
         '
         'txtKCNXB
         '
-        Me.txtKCNXB.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtKCNXB.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.txtKCNXB.Location = New System.Drawing.Point(136, 65)
         Me.txtKCNXB.Name = "txtKCNXB"
-        Me.txtKCNXB.Size = New System.Drawing.Size(126, 23)
+        Me.txtKCNXB.Size = New System.Drawing.Size(126, 25)
         Me.txtKCNXB.TabIndex = 4
         '
         'GroupBox3
@@ -203,10 +203,10 @@ Partial Class QuyDinhGUI
         '
         'txtSachMuonToiDa
         '
-        Me.txtSachMuonToiDa.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtSachMuonToiDa.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.txtSachMuonToiDa.Location = New System.Drawing.Point(434, 28)
         Me.txtSachMuonToiDa.Name = "txtSachMuonToiDa"
-        Me.txtSachMuonToiDa.Size = New System.Drawing.Size(130, 23)
+        Me.txtSachMuonToiDa.Size = New System.Drawing.Size(130, 25)
         Me.txtSachMuonToiDa.TabIndex = 6
         '
         'Label3
@@ -221,10 +221,10 @@ Partial Class QuyDinhGUI
         '
         'txtNgayMuonToiDa
         '
-        Me.txtNgayMuonToiDa.Font = New System.Drawing.Font("Segoe UI", 9.0!)
+        Me.txtNgayMuonToiDa.Font = New System.Drawing.Font("Segoe UI", 9.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.txtNgayMuonToiDa.Location = New System.Drawing.Point(132, 28)
         Me.txtNgayMuonToiDa.Name = "txtNgayMuonToiDa"
-        Me.txtNgayMuonToiDa.Size = New System.Drawing.Size(130, 23)
+        Me.txtNgayMuonToiDa.Size = New System.Drawing.Size(130, 25)
         Me.txtNgayMuonToiDa.TabIndex = 5
         '
         'Panel2
