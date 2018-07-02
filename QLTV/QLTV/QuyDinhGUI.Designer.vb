@@ -59,7 +59,7 @@ Partial Class QuyDinhGUI
         Me.btnThoat.Location = New System.Drawing.Point(300, 352)
         Me.btnThoat.Name = "btnThoat"
         Me.btnThoat.Size = New System.Drawing.Size(118, 44)
-        Me.btnThoat.TabIndex = 49
+        Me.btnThoat.TabIndex = 8
         Me.btnThoat.Text = "Trở Về"
         Me.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnThoat.UseVisualStyleBackColor = False
@@ -75,7 +75,7 @@ Partial Class QuyDinhGUI
         Me.btnCapNhat.Location = New System.Drawing.Point(148, 352)
         Me.btnCapNhat.Name = "btnCapNhat"
         Me.btnCapNhat.Size = New System.Drawing.Size(125, 44)
-        Me.btnCapNhat.TabIndex = 47
+        Me.btnCapNhat.TabIndex = 7
         Me.btnCapNhat.Text = "Cập Nhật"
         Me.btnCapNhat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnCapNhat.UseVisualStyleBackColor = False
@@ -111,7 +111,7 @@ Partial Class QuyDinhGUI
         Me.txtTuoiToiDa.Location = New System.Drawing.Point(121, 56)
         Me.txtTuoiToiDa.Name = "txtTuoiToiDa"
         Me.txtTuoiToiDa.Size = New System.Drawing.Size(131, 25)
-        Me.txtTuoiToiDa.TabIndex = 13
+        Me.txtTuoiToiDa.TabIndex = 2
         '
         'label
         '
@@ -136,14 +136,14 @@ Partial Class QuyDinhGUI
         Me.txtHanSuDung.Location = New System.Drawing.Point(121, 94)
         Me.txtHanSuDung.Name = "txtHanSuDung"
         Me.txtHanSuDung.Size = New System.Drawing.Size(131, 25)
-        Me.txtHanSuDung.TabIndex = 9
+        Me.txtHanSuDung.TabIndex = 3
         '
         'txtTuoiToiThieu
         '
         Me.txtTuoiToiThieu.Location = New System.Drawing.Point(121, 21)
         Me.txtTuoiToiThieu.Name = "txtTuoiToiThieu"
         Me.txtTuoiToiThieu.Size = New System.Drawing.Size(131, 25)
-        Me.txtTuoiToiThieu.TabIndex = 10
+        Me.txtTuoiToiThieu.TabIndex = 1
         '
         'GroupBox2
         '
@@ -174,7 +174,7 @@ Partial Class QuyDinhGUI
         Me.txtKCNXB.Location = New System.Drawing.Point(136, 65)
         Me.txtKCNXB.Name = "txtKCNXB"
         Me.txtKCNXB.Size = New System.Drawing.Size(126, 23)
-        Me.txtKCNXB.TabIndex = 0
+        Me.txtKCNXB.TabIndex = 4
         '
         'GroupBox3
         '
@@ -207,7 +207,7 @@ Partial Class QuyDinhGUI
         Me.txtSachMuonToiDa.Location = New System.Drawing.Point(434, 28)
         Me.txtSachMuonToiDa.Name = "txtSachMuonToiDa"
         Me.txtSachMuonToiDa.Size = New System.Drawing.Size(130, 23)
-        Me.txtSachMuonToiDa.TabIndex = 3
+        Me.txtSachMuonToiDa.TabIndex = 6
         '
         'Label3
         '
@@ -225,7 +225,7 @@ Partial Class QuyDinhGUI
         Me.txtNgayMuonToiDa.Location = New System.Drawing.Point(132, 28)
         Me.txtNgayMuonToiDa.Name = "txtNgayMuonToiDa"
         Me.txtNgayMuonToiDa.Size = New System.Drawing.Size(130, 23)
-        Me.txtNgayMuonToiDa.TabIndex = 0
+        Me.txtNgayMuonToiDa.TabIndex = 5
         '
         'Panel2
         '

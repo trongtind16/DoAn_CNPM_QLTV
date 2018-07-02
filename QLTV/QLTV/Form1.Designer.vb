@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
@@ -36,10 +36,8 @@ Partial Class Form1
         Me.BunifuFlatButton6 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.SideMenu = New System.Windows.Forms.Panel()
         Me.BunifuFlatButton8 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.BunifuFlatButton9 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton7 = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.BunifuFlatButton5 = New Bunifu.Framework.UI.BunifuFlatButton()
-        Me.ThemDG = New Bunifu.Framework.UI.BunifuFlatButton()
         Me.Header = New System.Windows.Forms.Panel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -108,7 +106,7 @@ Partial Class Form1
         Me.BunifuFlatButton1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton1.BorderRadius = 0
-        Me.BunifuFlatButton1.ButtonText = "          Loại Độc Giả"
+        Me.BunifuFlatButton1.ButtonText = "     Loại Độc Giả"
         Me.BunifuFlatButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton1, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton1, BunifuAnimatorNS.DecorationType.None)
@@ -125,7 +123,7 @@ Partial Class Form1
         Me.BunifuFlatButton1.IconVisible = True
         Me.BunifuFlatButton1.IconZoom = 60.0R
         Me.BunifuFlatButton1.IsTab = True
-        Me.BunifuFlatButton1.Location = New System.Drawing.Point(3, 321)
+        Me.BunifuFlatButton1.Location = New System.Drawing.Point(-1, 279)
         Me.BunifuFlatButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton1.Name = "BunifuFlatButton1"
         Me.BunifuFlatButton1.Normalcolor = System.Drawing.Color.Transparent
@@ -134,7 +132,7 @@ Partial Class Form1
         Me.BunifuFlatButton1.selected = False
         Me.BunifuFlatButton1.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton1.TabIndex = 4
-        Me.BunifuFlatButton1.Text = "          Loại Độc Giả"
+        Me.BunifuFlatButton1.Text = "     Loại Độc Giả"
         Me.BunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton1.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton1.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -145,7 +143,7 @@ Partial Class Form1
         Me.QLDocGia.BackColor = System.Drawing.Color.Transparent
         Me.QLDocGia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.QLDocGia.BorderRadius = 0
-        Me.QLDocGia.ButtonText = "          Độc Giả"
+        Me.QLDocGia.ButtonText = "     Độc Giả"
         Me.QLDocGia.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.QLDocGia, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.QLDocGia, BunifuAnimatorNS.DecorationType.None)
@@ -162,7 +160,7 @@ Partial Class Form1
         Me.QLDocGia.IconVisible = True
         Me.QLDocGia.IconZoom = 60.0R
         Me.QLDocGia.IsTab = True
-        Me.QLDocGia.Location = New System.Drawing.Point(3, 46)
+        Me.QLDocGia.Location = New System.Drawing.Point(1, 110)
         Me.QLDocGia.Margin = New System.Windows.Forms.Padding(4)
         Me.QLDocGia.Name = "QLDocGia"
         Me.QLDocGia.Normalcolor = System.Drawing.Color.Transparent
@@ -171,7 +169,7 @@ Partial Class Form1
         Me.QLDocGia.selected = False
         Me.QLDocGia.Size = New System.Drawing.Size(196, 49)
         Me.QLDocGia.TabIndex = 4
-        Me.QLDocGia.Text = "          Độc Giả"
+        Me.QLDocGia.Text = "     Độc Giả"
         Me.QLDocGia.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.QLDocGia.Textcolor = System.Drawing.Color.Silver
         Me.QLDocGia.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
@@ -182,7 +180,7 @@ Partial Class Form1
         Me.BunifuFlatButton3.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton3.BorderRadius = 0
-        Me.BunifuFlatButton3.ButtonText = "          Quy Định"
+        Me.BunifuFlatButton3.ButtonText = "     Quy Định"
         Me.BunifuFlatButton3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton3, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton3, BunifuAnimatorNS.DecorationType.None)
@@ -199,7 +197,7 @@ Partial Class Form1
         Me.BunifuFlatButton3.IconVisible = True
         Me.BunifuFlatButton3.IconZoom = 60.0R
         Me.BunifuFlatButton3.IsTab = True
-        Me.BunifuFlatButton3.Location = New System.Drawing.Point(3, 486)
+        Me.BunifuFlatButton3.Location = New System.Drawing.Point(-1, 444)
         Me.BunifuFlatButton3.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton3.Name = "BunifuFlatButton3"
         Me.BunifuFlatButton3.Normalcolor = System.Drawing.Color.Transparent
@@ -208,7 +206,7 @@ Partial Class Form1
         Me.BunifuFlatButton3.selected = False
         Me.BunifuFlatButton3.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton3.TabIndex = 4
-        Me.BunifuFlatButton3.Text = "          Quy Định"
+        Me.BunifuFlatButton3.Text = "     Quy Định"
         Me.BunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton3.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton3.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
@@ -219,7 +217,7 @@ Partial Class Form1
         Me.BunifuFlatButton4.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton4.BorderRadius = 0
-        Me.BunifuFlatButton4.ButtonText = "          Loại Sách"
+        Me.BunifuFlatButton4.ButtonText = "     Loại Sách"
         Me.BunifuFlatButton4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton4, BunifuAnimatorNS.DecorationType.None)
@@ -236,7 +234,7 @@ Partial Class Form1
         Me.BunifuFlatButton4.IconVisible = True
         Me.BunifuFlatButton4.IconZoom = 60.0R
         Me.BunifuFlatButton4.IsTab = True
-        Me.BunifuFlatButton4.Location = New System.Drawing.Point(3, 376)
+        Me.BunifuFlatButton4.Location = New System.Drawing.Point(-1, 334)
         Me.BunifuFlatButton4.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton4.Name = "BunifuFlatButton4"
         Me.BunifuFlatButton4.Normalcolor = System.Drawing.Color.Transparent
@@ -245,7 +243,7 @@ Partial Class Form1
         Me.BunifuFlatButton4.selected = False
         Me.BunifuFlatButton4.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton4.TabIndex = 4
-        Me.BunifuFlatButton4.Text = "          Loại Sách"
+        Me.BunifuFlatButton4.Text = "     Loại Sách"
         Me.BunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton4.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton4.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
@@ -256,7 +254,7 @@ Partial Class Form1
         Me.BunifuFlatButton6.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton6.BorderRadius = 0
-        Me.BunifuFlatButton6.ButtonText = "          Sách"
+        Me.BunifuFlatButton6.ButtonText = "     Sách"
         Me.BunifuFlatButton6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton6, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton6, BunifuAnimatorNS.DecorationType.None)
@@ -273,7 +271,7 @@ Partial Class Form1
         Me.BunifuFlatButton6.IconVisible = True
         Me.BunifuFlatButton6.IconZoom = 60.0R
         Me.BunifuFlatButton6.IsTab = True
-        Me.BunifuFlatButton6.Location = New System.Drawing.Point(3, 156)
+        Me.BunifuFlatButton6.Location = New System.Drawing.Point(1, 167)
         Me.BunifuFlatButton6.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton6.Name = "BunifuFlatButton6"
         Me.BunifuFlatButton6.Normalcolor = System.Drawing.Color.Transparent
@@ -282,7 +280,7 @@ Partial Class Form1
         Me.BunifuFlatButton6.selected = False
         Me.BunifuFlatButton6.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton6.TabIndex = 4
-        Me.BunifuFlatButton6.Text = "          Sách"
+        Me.BunifuFlatButton6.Text = "     Sách"
         Me.BunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton6.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton6.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
@@ -291,12 +289,10 @@ Partial Class Form1
         '
         Me.SideMenu.BackColor = System.Drawing.Color.FromArgb(CType(CType(26, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(40, Byte), Integer))
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton8)
-        Me.SideMenu.Controls.Add(Me.BunifuFlatButton9)
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton7)
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton5)
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton3)
         Me.SideMenu.Controls.Add(Me.btnMenu)
-        Me.SideMenu.Controls.Add(Me.ThemDG)
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton4)
         Me.SideMenu.Controls.Add(Me.BunifuFlatButton6)
         Me.SideMenu.Controls.Add(Me.QLDocGia)
@@ -316,7 +312,7 @@ Partial Class Form1
         Me.BunifuFlatButton8.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton8.BorderRadius = 0
-        Me.BunifuFlatButton8.ButtonText = "          Báo Cáo"
+        Me.BunifuFlatButton8.ButtonText = "     Báo Cáo"
         Me.BunifuFlatButton8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton8, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton8, BunifuAnimatorNS.DecorationType.None)
@@ -333,7 +329,7 @@ Partial Class Form1
         Me.BunifuFlatButton8.IconVisible = True
         Me.BunifuFlatButton8.IconZoom = 60.0R
         Me.BunifuFlatButton8.IsTab = True
-        Me.BunifuFlatButton8.Location = New System.Drawing.Point(3, 552)
+        Me.BunifuFlatButton8.Location = New System.Drawing.Point(-1, 510)
         Me.BunifuFlatButton8.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton8.Name = "BunifuFlatButton8"
         Me.BunifuFlatButton8.Normalcolor = System.Drawing.Color.Transparent
@@ -342,47 +338,10 @@ Partial Class Form1
         Me.BunifuFlatButton8.selected = False
         Me.BunifuFlatButton8.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton8.TabIndex = 4
-        Me.BunifuFlatButton8.Text = "          Báo Cáo"
+        Me.BunifuFlatButton8.Text = "     Báo Cáo"
         Me.BunifuFlatButton8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton8.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton8.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
-        '
-        'BunifuFlatButton9
-        '
-        Me.BunifuFlatButton9.Activecolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuFlatButton9.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.BunifuFlatButton9.BorderRadius = 0
-        Me.BunifuFlatButton9.ButtonText = "          Thêm Phiếu Mượn"
-        Me.BunifuFlatButton9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton9, BunifuAnimatorNS.DecorationType.None)
-        Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton9, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuFlatButton9.DisabledColor = System.Drawing.Color.Gray
-        Me.BunifuFlatButton9.Iconcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton9.Iconimage = CType(resources.GetObject("BunifuFlatButton9.Iconimage"), System.Drawing.Image)
-        Me.BunifuFlatButton9.Iconimage_right = Nothing
-        Me.BunifuFlatButton9.Iconimage_right_Selected = Nothing
-        Me.BunifuFlatButton9.Iconimage_Selected = Nothing
-        Me.BunifuFlatButton9.IconMarginLeft = 0
-        Me.BunifuFlatButton9.IconMarginRight = 0
-        Me.BunifuFlatButton9.IconRightVisible = False
-        Me.BunifuFlatButton9.IconRightZoom = 0R
-        Me.BunifuFlatButton9.IconVisible = True
-        Me.BunifuFlatButton9.IconZoom = 60.0R
-        Me.BunifuFlatButton9.IsTab = True
-        Me.BunifuFlatButton9.Location = New System.Drawing.Point(3, 266)
-        Me.BunifuFlatButton9.Margin = New System.Windows.Forms.Padding(4)
-        Me.BunifuFlatButton9.Name = "BunifuFlatButton9"
-        Me.BunifuFlatButton9.Normalcolor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton9.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.BunifuFlatButton9.OnHoverTextColor = System.Drawing.Color.Transparent
-        Me.BunifuFlatButton9.selected = False
-        Me.BunifuFlatButton9.Size = New System.Drawing.Size(196, 49)
-        Me.BunifuFlatButton9.TabIndex = 4
-        Me.BunifuFlatButton9.Text = "          Thêm Phiếu Mượn"
-        Me.BunifuFlatButton9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.BunifuFlatButton9.Textcolor = System.Drawing.Color.Silver
-        Me.BunifuFlatButton9.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
         '
         'BunifuFlatButton7
         '
@@ -390,7 +349,7 @@ Partial Class Form1
         Me.BunifuFlatButton7.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton7.BorderRadius = 0
-        Me.BunifuFlatButton7.ButtonText = "          Phiếu Mượn"
+        Me.BunifuFlatButton7.ButtonText = "     Phiếu Mượn"
         Me.BunifuFlatButton7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton7, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton7, BunifuAnimatorNS.DecorationType.None)
@@ -407,7 +366,7 @@ Partial Class Form1
         Me.BunifuFlatButton7.IconVisible = True
         Me.BunifuFlatButton7.IconZoom = 60.0R
         Me.BunifuFlatButton7.IsTab = True
-        Me.BunifuFlatButton7.Location = New System.Drawing.Point(3, 211)
+        Me.BunifuFlatButton7.Location = New System.Drawing.Point(1, 222)
         Me.BunifuFlatButton7.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton7.Name = "BunifuFlatButton7"
         Me.BunifuFlatButton7.Normalcolor = System.Drawing.Color.Transparent
@@ -416,7 +375,7 @@ Partial Class Form1
         Me.BunifuFlatButton7.selected = False
         Me.BunifuFlatButton7.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton7.TabIndex = 4
-        Me.BunifuFlatButton7.Text = "          Phiếu Mượn"
+        Me.BunifuFlatButton7.Text = "     Phiếu Mượn"
         Me.BunifuFlatButton7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton7.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton7.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
@@ -427,7 +386,7 @@ Partial Class Form1
         Me.BunifuFlatButton5.BackColor = System.Drawing.Color.Transparent
         Me.BunifuFlatButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.BunifuFlatButton5.BorderRadius = 0
-        Me.BunifuFlatButton5.ButtonText = "          Tình Trạng Sách"
+        Me.BunifuFlatButton5.ButtonText = "     Tình Trạng Sách"
         Me.BunifuFlatButton5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PanelAnimator.SetDecoration(Me.BunifuFlatButton5, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator2.SetDecoration(Me.BunifuFlatButton5, BunifuAnimatorNS.DecorationType.None)
@@ -444,7 +403,7 @@ Partial Class Form1
         Me.BunifuFlatButton5.IconVisible = True
         Me.BunifuFlatButton5.IconZoom = 60.0R
         Me.BunifuFlatButton5.IsTab = True
-        Me.BunifuFlatButton5.Location = New System.Drawing.Point(3, 431)
+        Me.BunifuFlatButton5.Location = New System.Drawing.Point(-1, 389)
         Me.BunifuFlatButton5.Margin = New System.Windows.Forms.Padding(4)
         Me.BunifuFlatButton5.Name = "BunifuFlatButton5"
         Me.BunifuFlatButton5.Normalcolor = System.Drawing.Color.Transparent
@@ -453,47 +412,10 @@ Partial Class Form1
         Me.BunifuFlatButton5.selected = False
         Me.BunifuFlatButton5.Size = New System.Drawing.Size(196, 49)
         Me.BunifuFlatButton5.TabIndex = 4
-        Me.BunifuFlatButton5.Text = "          Tình Trạng Sách"
+        Me.BunifuFlatButton5.Text = "     Tình Trạng Sách"
         Me.BunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.BunifuFlatButton5.Textcolor = System.Drawing.Color.Silver
         Me.BunifuFlatButton5.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
-        '
-        'ThemDG
-        '
-        Me.ThemDG.Activecolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.ThemDG.BackColor = System.Drawing.Color.Transparent
-        Me.ThemDG.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ThemDG.BorderRadius = 0
-        Me.ThemDG.ButtonText = "          Thêm Độc Giả"
-        Me.ThemDG.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PanelAnimator.SetDecoration(Me.ThemDG, BunifuAnimatorNS.DecorationType.None)
-        Me.PanelAnimator2.SetDecoration(Me.ThemDG, BunifuAnimatorNS.DecorationType.None)
-        Me.ThemDG.DisabledColor = System.Drawing.Color.Gray
-        Me.ThemDG.Iconcolor = System.Drawing.Color.Transparent
-        Me.ThemDG.Iconimage = CType(resources.GetObject("ThemDG.Iconimage"), System.Drawing.Image)
-        Me.ThemDG.Iconimage_right = Nothing
-        Me.ThemDG.Iconimage_right_Selected = Nothing
-        Me.ThemDG.Iconimage_Selected = Nothing
-        Me.ThemDG.IconMarginLeft = 0
-        Me.ThemDG.IconMarginRight = 0
-        Me.ThemDG.IconRightVisible = False
-        Me.ThemDG.IconRightZoom = 0R
-        Me.ThemDG.IconVisible = True
-        Me.ThemDG.IconZoom = 60.0R
-        Me.ThemDG.IsTab = True
-        Me.ThemDG.Location = New System.Drawing.Point(3, 101)
-        Me.ThemDG.Margin = New System.Windows.Forms.Padding(4)
-        Me.ThemDG.Name = "ThemDG"
-        Me.ThemDG.Normalcolor = System.Drawing.Color.Transparent
-        Me.ThemDG.OnHovercolor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(102, Byte), Integer), CType(CType(204, Byte), Integer))
-        Me.ThemDG.OnHoverTextColor = System.Drawing.Color.Transparent
-        Me.ThemDG.selected = False
-        Me.ThemDG.Size = New System.Drawing.Size(196, 49)
-        Me.ThemDG.TabIndex = 4
-        Me.ThemDG.Text = "          Thêm Độc Giả"
-        Me.ThemDG.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.ThemDG.Textcolor = System.Drawing.Color.Silver
-        Me.ThemDG.TextFont = New System.Drawing.Font("Microsoft Sans Serif", 10.8!, System.Drawing.FontStyle.Bold)
         '
         'Header
         '
@@ -633,6 +555,7 @@ Partial Class Form1
         Me.Controls.Add(Me.SideMenu)
         Me.PanelAnimator2.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
         Me.PanelAnimator.SetDecoration(Me, BunifuAnimatorNS.DecorationType.None)
+        Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.Name = "Form1"
@@ -671,6 +594,4 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Header3 As Panel
     Friend WithEvents BunifuFlatButton8 As Bunifu.Framework.UI.BunifuFlatButton
-    Friend WithEvents ThemDG As Bunifu.Framework.UI.BunifuFlatButton
-    Friend WithEvents BunifuFlatButton9 As Bunifu.Framework.UI.BunifuFlatButton
 End Class

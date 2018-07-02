@@ -212,7 +212,6 @@ C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.QuyDinhGUI.r
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.SachGUI.resources
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.TheLoaiSachGUI.resources
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemDocGiaGUI.resources
-C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemLoaiDocGiaGUI.resources
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemSachGUI.resources
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.ThemTheLoaiSachGUI.resources
 C:\Users\TrongTin16\Desktop\DoAn_CNPM_QLTV\QLTV\QLTV\obj\Debug\QLTV.TinhTrangSachGUI.resources

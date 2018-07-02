@@ -64,14 +64,14 @@ Partial Class BaoCaoTheoTheLoaiGUI
         Me.cbNam.Location = New System.Drawing.Point(250, 85)
         Me.cbNam.Name = "cbNam"
         Me.cbNam.Size = New System.Drawing.Size(69, 21)
-        Me.cbNam.TabIndex = 11
+        Me.cbNam.TabIndex = 1
         '
         'txtTong
         '
         Me.txtTong.Location = New System.Drawing.Point(685, 85)
         Me.txtTong.Name = "txtTong"
         Me.txtTong.Size = New System.Drawing.Size(100, 20)
-        Me.txtTong.TabIndex = 13
+        Me.txtTong.TabIndex = 4
         '
         'BunifuCustomLabel2
         '
@@ -102,7 +102,7 @@ Partial Class BaoCaoTheoTheLoaiGUI
         Me.cbThang.Location = New System.Drawing.Point(111, 85)
         Me.cbThang.Name = "cbThang"
         Me.cbThang.Size = New System.Drawing.Size(69, 21)
-        Me.cbThang.TabIndex = 11
+        Me.cbThang.TabIndex = 1
         '
         'BunifuCustomLabel3
         '
@@ -126,7 +126,7 @@ Partial Class BaoCaoTheoTheLoaiGUI
         Me.btnThoat.Location = New System.Drawing.Point(339, 405)
         Me.btnThoat.Name = "btnThoat"
         Me.btnThoat.Size = New System.Drawing.Size(142, 48)
-        Me.btnThoat.TabIndex = 41
+        Me.btnThoat.TabIndex = 3
         Me.btnThoat.Text = "Trở Về"
         Me.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnThoat.UseVisualStyleBackColor = False

@@ -41,6 +41,7 @@ Partial Class PhieuTraSachGUI
         Me.MaPhieu = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.dtpNgayTra = New System.Windows.Forms.DateTimePicker()
         Me.dtpNgayHenTra = New System.Windows.Forms.DateTimePicker()
         Me.dtpNgayMuon = New System.Windows.Forms.DateTimePicker()
@@ -62,7 +63,6 @@ Partial Class PhieuTraSachGUI
         Me.Label1 = New System.Windows.Forms.Label()
         Me.dgvChiTietPhieuMuon = New System.Windows.Forms.DataGridView()
         Me.NgayTra = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dgvChiTietPhieuMuon, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -196,6 +196,22 @@ Partial Class PhieuTraSachGUI
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Thông Tin Mượn Sách"
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(821, 40)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(158, 44)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Trả Sách"
+        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'dtpNgayTra
         '
         Me.dtpNgayTra.CustomFormat = "dd/MM/yyyy"
@@ -295,7 +311,7 @@ Partial Class PhieuTraSachGUI
         Me.btthoat.Location = New System.Drawing.Point(821, 113)
         Me.btthoat.Name = "btthoat"
         Me.btthoat.Size = New System.Drawing.Size(158, 44)
-        Me.btthoat.TabIndex = 49
+        Me.btthoat.TabIndex = 2
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthoat.UseVisualStyleBackColor = False
@@ -407,22 +423,6 @@ Partial Class PhieuTraSachGUI
         Me.NgayTra.HeaderText = "Ngày Trả"
         Me.NgayTra.Name = "NgayTra"
         Me.NgayTra.ReadOnly = True
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(821, 40)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(158, 44)
-        Me.Button2.TabIndex = 98
-        Me.Button2.Text = "Trả Sách"
-        Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.Button2.UseVisualStyleBackColor = False
         '
         'Label12
         '

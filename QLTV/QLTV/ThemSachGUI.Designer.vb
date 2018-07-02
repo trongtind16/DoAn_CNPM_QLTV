@@ -60,7 +60,7 @@ Partial Class ThemSachGUI
         Me.btnNhap.Location = New System.Drawing.Point(185, 354)
         Me.btnNhap.Name = "btnNhap"
         Me.btnNhap.Size = New System.Drawing.Size(89, 40)
-        Me.btnNhap.TabIndex = 39
+        Me.btnNhap.TabIndex = 10
         Me.btnNhap.Text = "Nhập"
         Me.btnNhap.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnNhap.UseVisualStyleBackColor = False
@@ -76,7 +76,7 @@ Partial Class ThemSachGUI
         Me.btnThoat.Location = New System.Drawing.Point(301, 354)
         Me.btnThoat.Name = "btnThoat"
         Me.btnThoat.Size = New System.Drawing.Size(89, 40)
-        Me.btnThoat.TabIndex = 40
+        Me.btnThoat.TabIndex = 11
         Me.btnThoat.Text = "Trở Về"
         Me.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnThoat.UseVisualStyleBackColor = False
@@ -87,7 +87,7 @@ Partial Class ThemSachGUI
         Me.txtNamXuatBan.Location = New System.Drawing.Point(116, 237)
         Me.txtNamXuatBan.Name = "txtNamXuatBan"
         Me.txtNamXuatBan.Size = New System.Drawing.Size(150, 23)
-        Me.txtNamXuatBan.TabIndex = 47
+        Me.txtNamXuatBan.TabIndex = 5
         '
         'cbTheLoai
         '
@@ -97,7 +97,7 @@ Partial Class ThemSachGUI
         Me.cbTheLoai.Location = New System.Drawing.Point(430, 32)
         Me.cbTheLoai.Name = "cbTheLoai"
         Me.cbTheLoai.Size = New System.Drawing.Size(141, 23)
-        Me.cbTheLoai.TabIndex = 44
+        Me.cbTheLoai.TabIndex = 6
         '
         'txtNhaXuatBan
         '
@@ -105,7 +105,7 @@ Partial Class ThemSachGUI
         Me.txtNhaXuatBan.Location = New System.Drawing.Point(116, 180)
         Me.txtNhaXuatBan.Name = "txtNhaXuatBan"
         Me.txtNhaXuatBan.Size = New System.Drawing.Size(150, 23)
-        Me.txtNhaXuatBan.TabIndex = 43
+        Me.txtNhaXuatBan.TabIndex = 4
         '
         'cbTinhTrang
         '
@@ -116,7 +116,7 @@ Partial Class ThemSachGUI
         Me.cbTinhTrang.Location = New System.Drawing.Point(430, 132)
         Me.cbTinhTrang.Name = "cbTinhTrang"
         Me.cbTinhTrang.Size = New System.Drawing.Size(141, 23)
-        Me.cbTinhTrang.TabIndex = 42
+        Me.cbTinhTrang.TabIndex = 8
         '
         'dtpNgayNhap
         '
@@ -126,7 +126,7 @@ Partial Class ThemSachGUI
         Me.dtpNgayNhap.Location = New System.Drawing.Point(430, 178)
         Me.dtpNgayNhap.Name = "dtpNgayNhap"
         Me.dtpNgayNhap.Size = New System.Drawing.Size(141, 23)
-        Me.dtpNgayNhap.TabIndex = 41
+        Me.dtpNgayNhap.TabIndex = 9
         Me.dtpNgayNhap.Value = New Date(2018, 5, 19, 0, 0, 0, 0)
         '
         'txtTriGia
@@ -135,7 +135,7 @@ Partial Class ThemSachGUI
         Me.txtTriGia.Location = New System.Drawing.Point(430, 81)
         Me.txtTriGia.Name = "txtTriGia"
         Me.txtTriGia.Size = New System.Drawing.Size(141, 23)
-        Me.txtTriGia.TabIndex = 39
+        Me.txtTriGia.TabIndex = 7
         '
         'txtTacGia
         '
@@ -143,7 +143,7 @@ Partial Class ThemSachGUI
         Me.txtTacGia.Location = New System.Drawing.Point(116, 132)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.Size = New System.Drawing.Size(150, 23)
-        Me.txtTacGia.TabIndex = 38
+        Me.txtTacGia.TabIndex = 3
         '
         'txtTenSach
         '
@@ -151,7 +151,7 @@ Partial Class ThemSachGUI
         Me.txtTenSach.Location = New System.Drawing.Point(116, 81)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.Size = New System.Drawing.Size(150, 23)
-        Me.txtTenSach.TabIndex = 36
+        Me.txtTenSach.TabIndex = 2
         '
         'txtMaSach
         '
@@ -160,7 +160,7 @@ Partial Class ThemSachGUI
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
         Me.txtMaSach.Size = New System.Drawing.Size(150, 23)
-        Me.txtMaSach.TabIndex = 35
+        Me.txtMaSach.TabIndex = 1
         '
         'Label9
         '
@@ -284,9 +284,9 @@ Partial Class ThemSachGUI
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(10, 55)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(587, 280)
         Me.GroupBox1.TabIndex = 48
         Me.GroupBox1.TabStop = False

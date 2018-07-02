@@ -156,7 +156,7 @@ Partial Class QuanLyPhieuMuonGUI
         Me.btthoat.Location = New System.Drawing.Point(855, 152)
         Me.btthoat.Name = "btthoat"
         Me.btthoat.Size = New System.Drawing.Size(166, 44)
-        Me.btthoat.TabIndex = 49
+        Me.btthoat.TabIndex = 3
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthoat.UseVisualStyleBackColor = False
@@ -173,7 +173,7 @@ Partial Class QuanLyPhieuMuonGUI
         Me.btthem.Location = New System.Drawing.Point(855, 39)
         Me.btthem.Name = "btthem"
         Me.btthem.Size = New System.Drawing.Size(166, 43)
-        Me.btthem.TabIndex = 45
+        Me.btthem.TabIndex = 1
         Me.btthem.Text = "Mượn Sách"
         Me.btthem.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthem.UseVisualStyleBackColor = False
@@ -312,7 +312,7 @@ Partial Class QuanLyPhieuMuonGUI
         Me.Button2.Location = New System.Drawing.Point(855, 93)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(166, 43)
-        Me.Button2.TabIndex = 98
+        Me.Button2.TabIndex = 2
         Me.Button2.Text = "Trả Sách"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button2.UseVisualStyleBackColor = False

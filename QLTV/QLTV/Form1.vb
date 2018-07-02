@@ -29,6 +29,7 @@
         BaoCaoGUI.Hide()
         ThemDocGiaGUI.Hide()
         PhieuMuonSachGUI.Hide()
+        DocGiaGUI.loadListDocGia()
         ''
         DocGiaGUI.Show()
     End Sub
@@ -133,7 +134,7 @@
 
         BaoCaoGUI.Show()
     End Sub
-    Private Sub ThemDG_Click(sender As Object, e As EventArgs) Handles ThemDG.Click
+    Private Sub ThemDG_Click(sender As Object, e As EventArgs)
         ThemDocGiaGUI.MdiParent = Me
         ''
         LoaiDocGiaGUI.Hide()
@@ -149,7 +150,7 @@
 
         ThemDocGiaGUI.Show()
     End Sub
-    Private Sub BunifuFlatButton9_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton9.Click
+    Private Sub BunifuFlatButton9_Click(sender As Object, e As EventArgs)
         PhieuMuonSachGUI.MdiParent = Me
         ''
         LoaiDocGiaGUI.Hide()

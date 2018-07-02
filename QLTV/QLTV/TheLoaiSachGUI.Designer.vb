@@ -45,7 +45,7 @@ Partial Class TheLoaiSachGUI
         Me.txtMaLoai.Name = "txtMaLoai"
         Me.txtMaLoai.ReadOnly = True
         Me.txtMaLoai.Size = New System.Drawing.Size(133, 20)
-        Me.txtMaLoai.TabIndex = 43
+        Me.txtMaLoai.TabIndex = 1
         Me.txtMaLoai.WordWrap = False
         '
         'Label3
@@ -64,7 +64,7 @@ Partial Class TheLoaiSachGUI
         Me.txtTenLoai.Location = New System.Drawing.Point(156, 314)
         Me.txtTenLoai.Name = "txtTenLoai"
         Me.txtTenLoai.Size = New System.Drawing.Size(222, 20)
-        Me.txtTenLoai.TabIndex = 41
+        Me.txtTenLoai.TabIndex = 2
         '
         'Label2
         '
@@ -113,9 +113,9 @@ Partial Class TheLoaiSachGUI
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(19, 48)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(467, 312)
         Me.GroupBox1.TabIndex = 48
         Me.GroupBox1.TabStop = False
@@ -132,7 +132,7 @@ Partial Class TheLoaiSachGUI
         Me.btxoa.Location = New System.Drawing.Point(258, 374)
         Me.btxoa.Name = "btxoa"
         Me.btxoa.Size = New System.Drawing.Size(110, 46)
-        Me.btxoa.TabIndex = 109
+        Me.btxoa.TabIndex = 5
         Me.btxoa.Text = "Xóa"
         Me.btxoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btxoa.UseVisualStyleBackColor = False
@@ -148,7 +148,7 @@ Partial Class TheLoaiSachGUI
         Me.btsua.Location = New System.Drawing.Point(142, 372)
         Me.btsua.Name = "btsua"
         Me.btsua.Size = New System.Drawing.Size(110, 48)
-        Me.btsua.TabIndex = 108
+        Me.btsua.TabIndex = 4
         Me.btsua.Text = "Cập Nhật"
         Me.btsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btsua.UseVisualStyleBackColor = False
@@ -164,7 +164,7 @@ Partial Class TheLoaiSachGUI
         Me.btthoat.Location = New System.Drawing.Point(373, 375)
         Me.btthoat.Name = "btthoat"
         Me.btthoat.Size = New System.Drawing.Size(110, 46)
-        Me.btthoat.TabIndex = 107
+        Me.btthoat.TabIndex = 6
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthoat.UseVisualStyleBackColor = False
@@ -181,7 +181,7 @@ Partial Class TheLoaiSachGUI
         Me.btthem.Location = New System.Drawing.Point(26, 372)
         Me.btthem.Name = "btthem"
         Me.btthem.Size = New System.Drawing.Size(110, 48)
-        Me.btthem.TabIndex = 106
+        Me.btthem.TabIndex = 3
         Me.btthem.Text = "Thêm"
         Me.btthem.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthem.UseVisualStyleBackColor = False

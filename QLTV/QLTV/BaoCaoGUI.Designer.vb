@@ -40,7 +40,7 @@ Partial Class BaoCaoGUI
         Me.btthoat.Location = New System.Drawing.Point(158, 184)
         Me.btthoat.Name = "btthoat"
         Me.btthoat.Size = New System.Drawing.Size(103, 48)
-        Me.btthoat.TabIndex = 49
+        Me.btthoat.TabIndex = 3
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthoat.UseVisualStyleBackColor = False
@@ -58,7 +58,7 @@ Partial Class BaoCaoGUI
         Me.Button1.Location = New System.Drawing.Point(267, 88)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(149, 73)
-        Me.Button1.TabIndex = 94
+        Me.Button1.TabIndex = 2
         Me.Button1.Text = "Báo Cáo Thể Loại Sách"
         Me.Button1.UseVisualStyleBackColor = False
         '
@@ -75,7 +75,7 @@ Partial Class BaoCaoGUI
         Me.Button2.Location = New System.Drawing.Point(12, 88)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(149, 73)
-        Me.Button2.TabIndex = 94
+        Me.Button2.TabIndex = 1
         Me.Button2.Text = "Báo Cáo Thống Kê Sách Trả Trễ"
         Me.Button2.UseVisualStyleBackColor = False
         '

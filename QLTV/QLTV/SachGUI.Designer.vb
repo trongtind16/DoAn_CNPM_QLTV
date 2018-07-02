@@ -23,15 +23,15 @@ Partial Class SachGUI
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SachGUI))
-        Dim DataGridViewCellStyle10 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle11 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle12 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle13 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle14 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle15 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle16 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle17 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle18 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle9 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.btxoa = New System.Windows.Forms.Button()
         Me.btthoat = New System.Windows.Forms.Button()
@@ -102,7 +102,7 @@ Partial Class SachGUI
         Me.btxoa.Location = New System.Drawing.Point(230, 24)
         Me.btxoa.Name = "btxoa"
         Me.btxoa.Size = New System.Drawing.Size(98, 44)
-        Me.btxoa.TabIndex = 45
+        Me.btxoa.TabIndex = 12
         Me.btxoa.Text = "Xóa"
         Me.btxoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btxoa.UseVisualStyleBackColor = False
@@ -118,7 +118,7 @@ Partial Class SachGUI
         Me.btthoat.Location = New System.Drawing.Point(335, 25)
         Me.btthoat.Name = "btthoat"
         Me.btthoat.Size = New System.Drawing.Size(98, 44)
-        Me.btthoat.TabIndex = 48
+        Me.btthoat.TabIndex = 13
         Me.btthoat.Text = "Trở Về"
         Me.btthoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthoat.UseVisualStyleBackColor = False
@@ -134,7 +134,7 @@ Partial Class SachGUI
         Me.btthem.Location = New System.Drawing.Point(20, 25)
         Me.btthem.Name = "btthem"
         Me.btthem.Size = New System.Drawing.Size(98, 43)
-        Me.btthem.TabIndex = 44
+        Me.btthem.TabIndex = 10
         Me.btthem.Text = "Thêm"
         Me.btthem.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btthem.UseVisualStyleBackColor = False
@@ -150,7 +150,7 @@ Partial Class SachGUI
         Me.btsua.Location = New System.Drawing.Point(125, 24)
         Me.btsua.Name = "btsua"
         Me.btsua.Size = New System.Drawing.Size(98, 44)
-        Me.btsua.TabIndex = 46
+        Me.btsua.TabIndex = 11
         Me.btsua.Text = "Sửa"
         Me.btsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btsua.UseVisualStyleBackColor = False
@@ -158,6 +158,7 @@ Partial Class SachGUI
         'cbDoiTuong
         '
         Me.cbDoiTuong.FormattingEnabled = True
+        Me.cbDoiTuong.ItemHeight = 13
         Me.cbDoiTuong.Items.AddRange(New Object() {"Mã Sách", "Tên Sách", "Tác Giả"})
         Me.cbDoiTuong.Location = New System.Drawing.Point(306, 299)
         Me.cbDoiTuong.Name = "cbDoiTuong"
@@ -170,7 +171,7 @@ Partial Class SachGUI
         Me.txtTimKiem.Location = New System.Drawing.Point(413, 299)
         Me.txtTimKiem.Name = "txtTimKiem"
         Me.txtTimKiem.Size = New System.Drawing.Size(156, 23)
-        Me.txtTimKiem.TabIndex = 53
+        Me.txtTimKiem.TabIndex = 15
         '
         'dgvlistSach
         '
@@ -187,9 +188,9 @@ Partial Class SachGUI
         '
         Me.MaSach.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.MaSach.DataPropertyName = "MaSach"
-        DataGridViewCellStyle10.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.MaSach.DefaultCellStyle = DataGridViewCellStyle10
+        DataGridViewCellStyle1.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.MaSach.DefaultCellStyle = DataGridViewCellStyle1
         Me.MaSach.HeaderText = "Mã Sách"
         Me.MaSach.Name = "MaSach"
         Me.MaSach.ReadOnly = True
@@ -198,9 +199,9 @@ Partial Class SachGUI
         'TenSach
         '
         Me.TenSach.DataPropertyName = "TenSach"
-        DataGridViewCellStyle11.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TenSach.DefaultCellStyle = DataGridViewCellStyle11
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TenSach.DefaultCellStyle = DataGridViewCellStyle2
         Me.TenSach.HeaderText = "Tên Sách"
         Me.TenSach.Name = "TenSach"
         Me.TenSach.ReadOnly = True
@@ -209,9 +210,9 @@ Partial Class SachGUI
         '
         Me.TenTLS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.TenTLS.DataPropertyName = "MaTLS"
-        DataGridViewCellStyle12.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TenTLS.DefaultCellStyle = DataGridViewCellStyle12
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TenTLS.DefaultCellStyle = DataGridViewCellStyle3
         Me.TenTLS.HeaderText = "Thể Loại"
         Me.TenTLS.Name = "TenTLS"
         Me.TenTLS.ReadOnly = True
@@ -220,9 +221,9 @@ Partial Class SachGUI
         'TenTG
         '
         Me.TenTG.DataPropertyName = "TenTG"
-        DataGridViewCellStyle13.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TenTG.DefaultCellStyle = DataGridViewCellStyle13
+        DataGridViewCellStyle4.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TenTG.DefaultCellStyle = DataGridViewCellStyle4
         Me.TenTG.HeaderText = "Tác Giả"
         Me.TenTG.Name = "TenTG"
         Me.TenTG.ReadOnly = True
@@ -231,9 +232,9 @@ Partial Class SachGUI
         '
         Me.NamXB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.NamXB.DataPropertyName = "NamXB"
-        DataGridViewCellStyle14.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.NamXB.DefaultCellStyle = DataGridViewCellStyle14
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.NamXB.DefaultCellStyle = DataGridViewCellStyle5
         Me.NamXB.HeaderText = "Năm Xuất Bản"
         Me.NamXB.Name = "NamXB"
         Me.NamXB.ReadOnly = True
@@ -242,9 +243,9 @@ Partial Class SachGUI
         'NXB
         '
         Me.NXB.DataPropertyName = "NXB"
-        DataGridViewCellStyle15.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.NXB.DefaultCellStyle = DataGridViewCellStyle15
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.NXB.DefaultCellStyle = DataGridViewCellStyle6
         Me.NXB.HeaderText = "Nhà Xuất Bản"
         Me.NXB.Name = "NXB"
         Me.NXB.ReadOnly = True
@@ -253,9 +254,9 @@ Partial Class SachGUI
         '
         Me.NgayNhap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.NgayNhap.DataPropertyName = "NgayNhap"
-        DataGridViewCellStyle16.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.NgayNhap.DefaultCellStyle = DataGridViewCellStyle16
+        DataGridViewCellStyle7.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.NgayNhap.DefaultCellStyle = DataGridViewCellStyle7
         Me.NgayNhap.HeaderText = "Ngày Nhập"
         Me.NgayNhap.Name = "NgayNhap"
         Me.NgayNhap.ReadOnly = True
@@ -265,9 +266,9 @@ Partial Class SachGUI
         '
         Me.TriGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.TriGia.DataPropertyName = "TriGia"
-        DataGridViewCellStyle17.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TriGia.DefaultCellStyle = DataGridViewCellStyle17
+        DataGridViewCellStyle8.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TriGia.DefaultCellStyle = DataGridViewCellStyle8
         Me.TriGia.HeaderText = "Trị Giá"
         Me.TriGia.Name = "TriGia"
         Me.TriGia.ReadOnly = True
@@ -277,9 +278,9 @@ Partial Class SachGUI
         '
         Me.TenTTS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None
         Me.TenTTS.DataPropertyName = "MaTTS"
-        DataGridViewCellStyle18.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.TenTTS.DefaultCellStyle = DataGridViewCellStyle18
+        DataGridViewCellStyle9.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.TenTTS.DefaultCellStyle = DataGridViewCellStyle9
         Me.TenTTS.HeaderText = "Tình Trạng"
         Me.TenTTS.Name = "TenTTS"
         Me.TenTTS.ReadOnly = True
@@ -320,13 +321,14 @@ Partial Class SachGUI
         Me.txtNamXuatBan.Location = New System.Drawing.Point(466, 78)
         Me.txtNamXuatBan.Name = "txtNamXuatBan"
         Me.txtNamXuatBan.Size = New System.Drawing.Size(199, 23)
-        Me.txtNamXuatBan.TabIndex = 25
+        Me.txtNamXuatBan.TabIndex = 5
         '
         'cbTheLoai
         '
         Me.cbTheLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTheLoai.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbTheLoai.FormattingEnabled = True
+        Me.cbTheLoai.ItemHeight = 15
         Me.cbTheLoai.Location = New System.Drawing.Point(107, 116)
         Me.cbTheLoai.Name = "cbTheLoai"
         Me.cbTheLoai.Size = New System.Drawing.Size(210, 23)
@@ -338,13 +340,14 @@ Partial Class SachGUI
         Me.txtNhaXuatBan.Location = New System.Drawing.Point(466, 40)
         Me.txtNhaXuatBan.Name = "txtNhaXuatBan"
         Me.txtNhaXuatBan.Size = New System.Drawing.Size(199, 23)
-        Me.txtNhaXuatBan.TabIndex = 20
+        Me.txtNhaXuatBan.TabIndex = 4
         '
         'cbTinhTrang
         '
         Me.cbTinhTrang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbTinhTrang.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbTinhTrang.FormattingEnabled = True
+        Me.cbTinhTrang.ItemHeight = 15
         Me.cbTinhTrang.Location = New System.Drawing.Point(796, 75)
         Me.cbTinhTrang.Name = "cbTinhTrang"
         Me.cbTinhTrang.Size = New System.Drawing.Size(184, 23)
@@ -359,7 +362,7 @@ Partial Class SachGUI
         Me.dtpNgayNhap.Name = "dtpNgayNhap"
         Me.dtpNgayNhap.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.dtpNgayNhap.Size = New System.Drawing.Size(184, 23)
-        Me.dtpNgayNhap.TabIndex = 18
+        Me.dtpNgayNhap.TabIndex = 9
         '
         'txtTriGia
         '
@@ -367,7 +370,7 @@ Partial Class SachGUI
         Me.txtTriGia.Location = New System.Drawing.Point(796, 40)
         Me.txtTriGia.Name = "txtTriGia"
         Me.txtTriGia.Size = New System.Drawing.Size(184, 23)
-        Me.txtTriGia.TabIndex = 15
+        Me.txtTriGia.TabIndex = 7
         '
         'txtTacGia
         '
@@ -375,7 +378,7 @@ Partial Class SachGUI
         Me.txtTacGia.Location = New System.Drawing.Point(466, 116)
         Me.txtTacGia.Name = "txtTacGia"
         Me.txtTacGia.Size = New System.Drawing.Size(199, 23)
-        Me.txtTacGia.TabIndex = 14
+        Me.txtTacGia.TabIndex = 6
         '
         'txtTenSach
         '
@@ -383,7 +386,7 @@ Partial Class SachGUI
         Me.txtTenSach.Location = New System.Drawing.Point(107, 78)
         Me.txtTenSach.Name = "txtTenSach"
         Me.txtTenSach.Size = New System.Drawing.Size(210, 23)
-        Me.txtTenSach.TabIndex = 10
+        Me.txtTenSach.TabIndex = 2
         '
         'txtMaSach
         '
@@ -392,7 +395,7 @@ Partial Class SachGUI
         Me.txtMaSach.Name = "txtMaSach"
         Me.txtMaSach.ReadOnly = True
         Me.txtMaSach.Size = New System.Drawing.Size(210, 23)
-        Me.txtMaSach.TabIndex = 9
+        Me.txtMaSach.TabIndex = 1
         '
         'Label9
         '
@@ -495,7 +498,7 @@ Partial Class SachGUI
         Me.Button2.Location = New System.Drawing.Point(691, 293)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(104, 35)
-        Me.Button2.TabIndex = 97
+        Me.Button2.TabIndex = 17
         Me.Button2.Text = "Hủy"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button2.UseVisualStyleBackColor = False
@@ -511,7 +514,7 @@ Partial Class SachGUI
         Me.Button3.Location = New System.Drawing.Point(575, 293)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(110, 37)
-        Me.Button3.TabIndex = 96
+        Me.Button3.TabIndex = 16
         Me.Button3.Text = "Tìm Kiếm"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button3.UseVisualStyleBackColor = False

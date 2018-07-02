@@ -62,7 +62,7 @@ Partial Class BaoCaoSachTreGUI
         Me.Button1.Location = New System.Drawing.Point(443, 401)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(93, 39)
-        Me.Button1.TabIndex = 69
+        Me.Button1.TabIndex = 1
         Me.Button1.Text = "Trở Về"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button1.UseVisualStyleBackColor = False

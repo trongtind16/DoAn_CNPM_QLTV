@@ -173,12 +173,6 @@
     <Compile Include="ThemDocGiaGUI.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ThemLoaiDocGiaGUI.Designer.vb">
-      <DependentUpon>ThemLoaiDocGiaGUI.vb</DependentUpon>
-    </Compile>
-    <Compile Include="ThemLoaiDocGiaGUI.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="ThemSachGUI.Designer.vb">
       <DependentUpon>ThemSachGUI.vb</DependentUpon>
     </Compile>
@@ -243,9 +237,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ThemDocGiaGUI.resx">
       <DependentUpon>ThemDocGiaGUI.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThemLoaiDocGiaGUI.resx">
-      <DependentUpon>ThemLoaiDocGiaGUI.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ThemSachGUI.resx">
       <DependentUpon>ThemSachGUI.vb</DependentUpon>

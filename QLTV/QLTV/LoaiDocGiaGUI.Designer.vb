@@ -22,21 +22,21 @@ Partial Class LoaiDocGiaGUI
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoaiDocGiaGUI))
         Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(LoaiDocGiaGUI))
         Me.txtMaLoai = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtTenLoai = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.dgvDanhSachTLS = New System.Windows.Forms.DataGridView()
+        Me.dgvDanhSachLoaiDG = New System.Windows.Forms.DataGridView()
+        Me.MaLDG = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.TenLDG = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.btsua = New System.Windows.Forms.Button()
         Me.btthoat = New System.Windows.Forms.Button()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.MaLDG = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TenLDG = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        CType(Me.dgvDanhSachTLS, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.dgvDanhSachLoaiDG, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'txtMaLoai
@@ -45,7 +45,7 @@ Partial Class LoaiDocGiaGUI
         Me.txtMaLoai.Name = "txtMaLoai"
         Me.txtMaLoai.ReadOnly = True
         Me.txtMaLoai.Size = New System.Drawing.Size(133, 20)
-        Me.txtMaLoai.TabIndex = 107
+        Me.txtMaLoai.TabIndex = 1
         Me.txtMaLoai.WordWrap = False
         '
         'Label3
@@ -64,7 +64,7 @@ Partial Class LoaiDocGiaGUI
         Me.txtTenLoai.Location = New System.Drawing.Point(222, 308)
         Me.txtTenLoai.Name = "txtTenLoai"
         Me.txtTenLoai.Size = New System.Drawing.Size(222, 20)
-        Me.txtTenLoai.TabIndex = 105
+        Me.txtTenLoai.TabIndex = 2
         '
         'Label2
         '
@@ -77,26 +77,44 @@ Partial Class LoaiDocGiaGUI
         Me.Label2.TabIndex = 104
         Me.Label2.Text = "Tên Loại:"
         '
-        'dgvDanhSachTLS
+        'dgvDanhSachLoaiDG
         '
-        Me.dgvDanhSachTLS.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.dgvDanhSachTLS.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgvDanhSachTLS.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MaLDG, Me.TenLDG})
-        Me.dgvDanhSachTLS.GridColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.dgvDanhSachTLS.Location = New System.Drawing.Point(107, 96)
-        Me.dgvDanhSachTLS.Name = "dgvDanhSachTLS"
-        Me.dgvDanhSachTLS.ReadOnly = True
-        Me.dgvDanhSachTLS.Size = New System.Drawing.Size(386, 150)
-        Me.dgvDanhSachTLS.TabIndex = 103
+        Me.dgvDanhSachLoaiDG.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.dgvDanhSachLoaiDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.dgvDanhSachLoaiDG.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.MaLDG, Me.TenLDG})
+        Me.dgvDanhSachLoaiDG.GridColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.dgvDanhSachLoaiDG.Location = New System.Drawing.Point(79, 96)
+        Me.dgvDanhSachLoaiDG.Name = "dgvDanhSachLoaiDG"
+        Me.dgvDanhSachLoaiDG.ReadOnly = True
+        Me.dgvDanhSachLoaiDG.Size = New System.Drawing.Size(414, 150)
+        Me.dgvDanhSachLoaiDG.TabIndex = 103
+        '
+        'MaLDG
+        '
+        Me.MaLDG.DataPropertyName = "MaLDG"
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
+        Me.MaLDG.DefaultCellStyle = DataGridViewCellStyle1
+        Me.MaLDG.HeaderText = "Mã Loại Độc Giả"
+        Me.MaLDG.Name = "MaLDG"
+        Me.MaLDG.ReadOnly = True
+        '
+        'TenLDG
+        '
+        Me.TenLDG.DataPropertyName = "TenLDG"
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
+        Me.TenLDG.DefaultCellStyle = DataGridViewCellStyle2
+        Me.TenLDG.HeaderText = "Tên LDG"
+        Me.TenLDG.Name = "TenLDG"
+        Me.TenLDG.ReadOnly = True
         '
         'GroupBox1
         '
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(36, 73)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(478, 270)
         Me.GroupBox1.TabIndex = 110
         Me.GroupBox1.TabStop = False
@@ -145,24 +163,6 @@ Partial Class LoaiDocGiaGUI
         Me.Label11.TabIndex = 111
         Me.Label11.Text = "Loại Độc Giả"
         '
-        'MaLDG
-        '
-        Me.MaLDG.DataPropertyName = "MaLDG"
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black
-        Me.MaLDG.DefaultCellStyle = DataGridViewCellStyle1
-        Me.MaLDG.HeaderText = "Mã Loại Độc Giả"
-        Me.MaLDG.Name = "MaLDG"
-        Me.MaLDG.ReadOnly = True
-        '
-        'TenLDG
-        '
-        Me.TenLDG.DataPropertyName = "TenLDG"
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black
-        Me.TenLDG.DefaultCellStyle = DataGridViewCellStyle2
-        Me.TenLDG.HeaderText = "Tên LDG"
-        Me.TenLDG.Name = "TenLDG"
-        Me.TenLDG.ReadOnly = True
-        '
         'LoaiDocGiaGUI
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -174,7 +174,7 @@ Partial Class LoaiDocGiaGUI
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.txtTenLoai)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.dgvDanhSachTLS)
+        Me.Controls.Add(Me.dgvDanhSachLoaiDG)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btsua)
         Me.Controls.Add(Me.btthoat)
@@ -183,7 +183,7 @@ Partial Class LoaiDocGiaGUI
         Me.Name = "LoaiDocGiaGUI"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "LoaiDocGiaGUI"
-        CType(Me.dgvDanhSachTLS, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.dgvDanhSachLoaiDG, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -193,7 +193,7 @@ Partial Class LoaiDocGiaGUI
     Friend WithEvents Label3 As Label
     Friend WithEvents txtTenLoai As TextBox
     Friend WithEvents Label2 As Label
-    Friend WithEvents dgvDanhSachTLS As DataGridView
+    Friend WithEvents dgvDanhSachLoaiDG As DataGridView
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents btsua As Button
     Friend WithEvents btthoat As Button

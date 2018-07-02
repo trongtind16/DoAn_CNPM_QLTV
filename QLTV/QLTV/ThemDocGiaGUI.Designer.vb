@@ -86,7 +86,7 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgayHetHan.Location = New System.Drawing.Point(501, 160)
         Me.dtpNgayHetHan.Name = "dtpNgayHetHan"
         Me.dtpNgayHetHan.Size = New System.Drawing.Size(207, 23)
-        Me.dtpNgayHetHan.TabIndex = 96
+        Me.dtpNgayHetHan.TabIndex = 9
         Me.dtpNgayHetHan.Value = New Date(2018, 11, 25, 0, 0, 0, 0)
         '
         'Label10
@@ -108,7 +108,7 @@ Partial Class ThemDocGiaGUI
         Me.cbGioiTinh.Location = New System.Drawing.Point(501, 85)
         Me.cbGioiTinh.Name = "cbGioiTinh"
         Me.cbGioiTinh.Size = New System.Drawing.Size(207, 23)
-        Me.cbGioiTinh.TabIndex = 47
+        Me.cbGioiTinh.TabIndex = 7
         '
         'Label7
         '
@@ -128,7 +128,7 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgayLapThe.Location = New System.Drawing.Point(501, 121)
         Me.dtpNgayLapThe.Name = "dtpNgayLapThe"
         Me.dtpNgayLapThe.Size = New System.Drawing.Size(207, 23)
-        Me.dtpNgayLapThe.TabIndex = 45
+        Me.dtpNgayLapThe.TabIndex = 8
         Me.dtpNgayLapThe.Value = New Date(2018, 5, 17, 0, 0, 0, 0)
         '
         'Label8
@@ -157,7 +157,7 @@ Partial Class ThemDocGiaGUI
         Me.txtDiaChi.Location = New System.Drawing.Point(162, 163)
         Me.txtDiaChi.Name = "txtDiaChi"
         Me.txtDiaChi.Size = New System.Drawing.Size(207, 23)
-        Me.txtDiaChi.TabIndex = 31
+        Me.txtDiaChi.TabIndex = 4
         '
         'txtEmail
         '
@@ -165,7 +165,7 @@ Partial Class ThemDocGiaGUI
         Me.txtEmail.Location = New System.Drawing.Point(162, 204)
         Me.txtEmail.Name = "txtEmail"
         Me.txtEmail.Size = New System.Drawing.Size(207, 23)
-        Me.txtEmail.TabIndex = 41
+        Me.txtEmail.TabIndex = 5
         '
         'dtpNgaySinh
         '
@@ -175,7 +175,7 @@ Partial Class ThemDocGiaGUI
         Me.dtpNgaySinh.Location = New System.Drawing.Point(162, 125)
         Me.dtpNgaySinh.Name = "dtpNgaySinh"
         Me.dtpNgaySinh.Size = New System.Drawing.Size(207, 22)
-        Me.dtpNgaySinh.TabIndex = 34
+        Me.dtpNgaySinh.TabIndex = 3
         Me.dtpNgaySinh.Value = New Date(1999, 1, 1, 0, 0, 0, 0)
         '
         'txtTenDG
@@ -184,7 +184,7 @@ Partial Class ThemDocGiaGUI
         Me.txtTenDG.Location = New System.Drawing.Point(162, 85)
         Me.txtTenDG.Name = "txtTenDG"
         Me.txtTenDG.Size = New System.Drawing.Size(207, 23)
-        Me.txtTenDG.TabIndex = 29
+        Me.txtTenDG.TabIndex = 2
         '
         'Label2
         '
@@ -203,7 +203,7 @@ Partial Class ThemDocGiaGUI
         Me.txtMaDG.Name = "txtMaDG"
         Me.txtMaDG.ReadOnly = True
         Me.txtMaDG.Size = New System.Drawing.Size(207, 23)
-        Me.txtMaDG.TabIndex = 33
+        Me.txtMaDG.TabIndex = 1
         '
         'Label5
         '
@@ -233,7 +233,7 @@ Partial Class ThemDocGiaGUI
         Me.cbLoaiDG.Location = New System.Drawing.Point(501, 43)
         Me.cbLoaiDG.Name = "cbLoaiDG"
         Me.cbLoaiDG.Size = New System.Drawing.Size(207, 23)
-        Me.cbLoaiDG.TabIndex = 36
+        Me.cbLoaiDG.TabIndex = 6
         '
         'Label4
         '
@@ -266,7 +266,7 @@ Partial Class ThemDocGiaGUI
         Me.btnNhap.Location = New System.Drawing.Point(279, 338)
         Me.btnNhap.Name = "btnNhap"
         Me.btnNhap.Size = New System.Drawing.Size(93, 42)
-        Me.btnNhap.TabIndex = 58
+        Me.btnNhap.TabIndex = 10
         Me.btnNhap.Text = "Nhập"
         Me.btnNhap.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnNhap.UseVisualStyleBackColor = False
@@ -282,7 +282,7 @@ Partial Class ThemDocGiaGUI
         Me.btnThoat.Location = New System.Drawing.Point(405, 338)
         Me.btnThoat.Name = "btnThoat"
         Me.btnThoat.Size = New System.Drawing.Size(93, 39)
-        Me.btnThoat.TabIndex = 59
+        Me.btnThoat.TabIndex = 11
         Me.btnThoat.Text = "Trở Về"
         Me.btnThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnThoat.UseVisualStyleBackColor = False

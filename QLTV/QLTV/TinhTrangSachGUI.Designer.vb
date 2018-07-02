@@ -43,7 +43,7 @@ Partial Class TinhTrangSachGUI
         Me.txtMaLoai.Name = "txtMaLoai"
         Me.txtMaLoai.ReadOnly = True
         Me.txtMaLoai.Size = New System.Drawing.Size(133, 20)
-        Me.txtMaLoai.TabIndex = 111
+        Me.txtMaLoai.TabIndex = 1
         Me.txtMaLoai.WordWrap = False
         '
         'Label3
@@ -62,7 +62,7 @@ Partial Class TinhTrangSachGUI
         Me.txtTenLoai.Location = New System.Drawing.Point(148, 311)
         Me.txtTenLoai.Name = "txtTenLoai"
         Me.txtTenLoai.Size = New System.Drawing.Size(222, 20)
-        Me.txtTenLoai.TabIndex = 109
+        Me.txtTenLoai.TabIndex = 2
         '
         'Label2
         '
@@ -112,7 +112,7 @@ Partial Class TinhTrangSachGUI
         Me.btsua.Location = New System.Drawing.Point(88, 356)
         Me.btsua.Name = "btsua"
         Me.btsua.Size = New System.Drawing.Size(105, 48)
-        Me.btsua.TabIndex = 113
+        Me.btsua.TabIndex = 3
         Me.btsua.Text = "Cập Nhật"
         Me.btsua.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btsua.UseVisualStyleBackColor = False
@@ -128,7 +128,7 @@ Partial Class TinhTrangSachGUI
         Me.Button1.Location = New System.Drawing.Point(264, 356)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(105, 46)
-        Me.Button1.TabIndex = 112
+        Me.Button1.TabIndex = 4
         Me.Button1.Text = "Trở Về"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.Button1.UseVisualStyleBackColor = False
@@ -138,9 +138,9 @@ Partial Class TinhTrangSachGUI
         Me.GroupBox1.Font = New System.Drawing.Font("Segoe UI", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(12, 49)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Size = New System.Drawing.Size(419, 301)
         Me.GroupBox1.TabIndex = 114
         Me.GroupBox1.TabStop = False

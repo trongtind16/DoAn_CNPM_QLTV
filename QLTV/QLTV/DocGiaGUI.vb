@@ -26,11 +26,7 @@ Public Class DocGiaGUI
         End Try
     End Sub
     Public Sub ThongTinDocGia_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        dgBUS = New DocGiaBUS()
         loadListDocGia()
-
-        dgBUS = New DocGiaBUS()
-        ldgBUS = New LoaiDocGiaBUS()
 
         ' Load LoaiHocSinh list
         Dim listLoaiDocGia = New List(Of LoaiDocGiaDTO)
@@ -52,6 +48,9 @@ Public Class DocGiaGUI
     Public Sub loadListDocGia()
         Dim listDG = New List(Of DocGiaDTO)
         Dim result As Result
+
+        dgBUS = New DocGiaBUS()
+        ldgBUS = New LoaiDocGiaBUS()
         result = dgBUS.selectAll(listDG)
         If (result.FlagResult = False) Then
             MessageBox.Show("Lấy danh sách Độc Giả không thành công.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
